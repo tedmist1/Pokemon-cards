@@ -37,7 +37,11 @@ def write_bids(all_items, concat_bid_page, item_bid_parser, save_dirs):
     t = 0
     while t < len(all_items):
         item = all_items[t]
+        # print(item)
         bid_page = get_webcontent(concat_bid_page, item)
+
+        print(bid_page)
+
         bid_item = item_bid_parser(bid_page, item)
         if bid_item is None:
             time.sleep(1)
@@ -83,6 +87,8 @@ def collect_and_update(auction_specs):
     # Write all items
     all_items = new_items.union(prog_items)
     print('Ebay likes asking for verification, this step gets throttled.\nWill sleep between verifies')
+
+
     write_bids(list(all_items), auction_reader.concat_bid_page, auction_reader.item_bid_parser, save_dirs)
 
 

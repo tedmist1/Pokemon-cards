@@ -1,0 +1,4 @@
+Here is your info:
+Application Id: 10647
+Public Key: d32b16ed-1f5a-4ce6-9339-8272f476417b
+Private Key: 5ee20512-983d-45a1-96a6-d2d267acc269

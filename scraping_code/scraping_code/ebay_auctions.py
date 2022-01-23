@@ -37,13 +37,17 @@ def link_to_item(link):
 
 # Not easily generalizable. Most susceptible to changes.
 def item_bid_parser(bid_page, item):
+    #print(bid_page)
     html_parsed = BeautifulSoup(bid_page, 'html.parser')
-
+   # print(html_parsed)
+   # print("~~~~~~~~~~~~~")
+    # Prints out the original html to look through
+    # print(html_parsed)
    
     #status_messages = html_parsed.find_all('span', attrs={'class':'app-listing-status_message'})
     status_messages = html_parsed.find_all('svg', attrs={'class':'icon icon--attention-filled'})
     
-
+    # print(status_messages)
     
     is_complete = 'This item has ended.' in [mess.attrs['aria-label'] for mess in status_messages]
 
@@ -64,9 +68,9 @@ def item_bid_parser(bid_page, item):
         if "Pokemon" in bid_text:
             print(bid_text)
 
-    #print(html_parsed)
 
-    print(bids_name_html)
+
+    #print(bids_name_html)
 
     # Last bid is the starting bid
     for bid_html in bids_html:
