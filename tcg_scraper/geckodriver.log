@@ -68,3 +68,594 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1643059213633	geckodriver	INFO	Listening on 127.0.0.1:60952
+1643059216686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60953" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofiletumj5D"
+1643059217091	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofiletumj5D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60953/devtools/browser/3a0c5833-518e-40dd-be8b-133410d217d0
+1643059218969	Marionette	INFO	Listening on port 60958
+1643059219350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 40: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643059225818	Marionette	INFO	Stopped listening on port 60958
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643076302692	geckodriver	INFO	Listening on 127.0.0.1:61490
+1643076305787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61491" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilehwsG89"
+1643076306222	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilehwsG89\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61491/devtools/browser/04addf49-8454-433e-a601-e8ac56e94cce
+1643076308353	Marionette	INFO	Listening on port 61496
+1643076308471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643076321425	Marionette	INFO	Stopped listening on port 61496
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643076328092	geckodriver	INFO	Listening on 127.0.0.1:61634
+1643076331125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61635" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilevs7YxS"
+1643076331386	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilevs7YxS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61635/devtools/browser/31396c90-1973-4b57-b854-4a878e52682c
+1643076333153	Marionette	INFO	Listening on port 61641
+1643076333197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643076337595	Marionette	INFO	Stopped listening on port 61641
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643076513200	geckodriver	INFO	Listening on 127.0.0.1:61876
+1643076516269	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61877" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileItrRFQ"
+1643076516502	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileItrRFQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61877/devtools/browser/cf51317f-9c41-49b9-87c7-a961e2ff1023
+1643076518411	Marionette	INFO	Listening on port 61883
+1643076518925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643076526607	Marionette	INFO	Stopped listening on port 61883
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643076529926	geckodriver	INFO	Listening on 127.0.0.1:62018
+1643076532965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62019" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileREpyvS"
+1643076533223	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileREpyvS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62019/devtools/browser/8e81e156-6d92-4239-ba0f-4a911940b566
+1643076534995	Marionette	INFO	Listening on port 62025
+1643076535021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643076539058	Marionette	INFO	Stopped listening on port 62025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643149376654	geckodriver	INFO	Listening on 127.0.0.1:53436
+1643149379722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53437" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileSkkfpc"
+1643149380280	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileSkkfpc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53437/devtools/browser/96fcab33-fa95-4291-9030-864b69db391f
+1643149382346	Marionette	INFO	Listening on port 53444
+1643149382413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149401757	Marionette	INFO	Stopped listening on port 53444
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643149434932	geckodriver	INFO	Listening on 127.0.0.1:53603
+1643149437996	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53604" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilerXMLl9"
+1643149438274	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilerXMLl9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53604/devtools/browser/a69c7de5-9a0e-4444-bac8-858f56b19841
+1643149440068	Marionette	INFO	Listening on port 53610
+1643149440094	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149454038	Marionette	INFO	Stopped listening on port 53610
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643149627007	geckodriver	INFO	Listening on 127.0.0.1:65450
+1643149630083	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65451" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileMTcIyh"
+1643149630320	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileMTcIyh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65451/devtools/browser/a8285c86-8c9a-46ba-8fe3-178b8f6d0a13
+1643149632064	Marionette	INFO	Listening on port 65457
+1643149632131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149648926	Marionette	INFO	Stopped listening on port 65457
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643149661611	geckodriver	INFO	Listening on 127.0.0.1:49226
+1643149664689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49227" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileJdhtzJ"
+1643149664919	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileJdhtzJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49227/devtools/browser/007fa7bf-739f-4f0b-883f-cf993d77e236
+1643149666676	Marionette	INFO	Listening on port 49233
+1643149666745	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149721055	Marionette	INFO	Stopped listening on port 49233
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643149762768	geckodriver	INFO	Listening on 127.0.0.1:49402
+1643149765825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49403" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilep7ZmKC"
+1643149766110	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilep7ZmKC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49403/devtools/browser/8474b501-dacb-4a05-b15a-d4fbcc2a7849
+1643149767934	Marionette	INFO	Listening on port 49411
+1643149768016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149789989	Marionette	INFO	Stopped listening on port 49411
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643149792138	geckodriver	INFO	Listening on 127.0.0.1:49545
+1643149795232	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49546" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileUyaGWr"
+1643149795468	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileUyaGWr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49546/devtools/browser/692e2b1f-8620-4461-b2af-d72d3f550f24
+1643149797163	Marionette	INFO	Listening on port 49553
+1643149797297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643149802200	Marionette	INFO	Stopped listening on port 49553
+1643150384481	geckodriver	INFO	Listening on 127.0.0.1:52744
+1643150387530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52745" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileKWTZ2T"
+1643150387766	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileKWTZ2T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52745/devtools/browser/0067a1ab-ddb1-4063-94ab-a471a6d3d679
+1643150389498	Marionette	INFO	Listening on port 52752
+1643150389595	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643150439906	Marionette	INFO	Stopped listening on port 52752
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643150442717	geckodriver	INFO	Listening on 127.0.0.1:52895
+1643150445775	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52896" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilet7Gefr"
+1643150446034	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilet7Gefr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52896/devtools/browser/3a458515-3b24-413f-ab9c-49ffa3fcf9a3
+1643150447721	Marionette	INFO	Listening on port 52902
+1643150447838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643150642240	Marionette	INFO	Stopped listening on port 52902
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643154008308	geckodriver	INFO	Listening on 127.0.0.1:63605
+1643154011395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63606" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilegBF7ki"
+1643154011662	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilegBF7ki\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63606/devtools/browser/5d22b0c2-10c2-4c42-9dee-ac45d9d4d3ca
+1643154013420	Marionette	INFO	Listening on port 63612
+1643154013472	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154146795	Marionette	INFO	Stopped listening on port 63612
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643154272912	geckodriver	INFO	Listening on 127.0.0.1:63859
+1643154276003	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63860" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileVpQSrK"
+1643154276282	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileVpQSrK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63860/devtools/browser/10d8917c-0d32-437e-b1a8-9d58c0280b6c
+1643154278056	Marionette	INFO	Listening on port 63867
+1643154278072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154378930	Marionette	INFO	Stopped listening on port 63867
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643154383085	geckodriver	INFO	Listening on 127.0.0.1:64041
+1643154386122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64042" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile5Gf9bD"
+1643154386393	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile5Gf9bD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64042/devtools/browser/17368606-e805-41c2-a842-f546aaebb041
+1643154388056	Marionette	INFO	Listening on port 64048
+1643154388204	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154440367	Marionette	INFO	Stopped listening on port 64048
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643154502204	geckodriver	INFO	Listening on 127.0.0.1:64226
+1643154505276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64227" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileTsx946"
+1643154505514	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileTsx946\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64227/devtools/browser/6b0fea65-3996-4af8-bf5b-f90bc673ef46
+1643154507253	Marionette	INFO	Listening on port 64233
+1643154507336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154638872	Marionette	INFO	Stopped listening on port 64233
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643154649049	geckodriver	INFO	Listening on 127.0.0.1:64427
+1643154652122	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64428" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileegLjNJ"
+1643154652363	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileegLjNJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64428/devtools/browser/67687957-5122-4805-8db7-cb7c65b416b6
+1643154654074	Marionette	INFO	Listening on port 64434
+1643154654176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154685727	Marionette	INFO	Stopped listening on port 64434
+1643154822246	geckodriver	INFO	Listening on 127.0.0.1:64637
+1643154825331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64638" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilezThjpv"
+1643154825619	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilezThjpv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64638/devtools/browser/3809e06e-616e-413a-a1fa-8bf91b1c6bf3
+1643154827489	Marionette	INFO	Listening on port 64644
+1643154827524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643154865701	Marionette	INFO	Stopped listening on port 64644
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643154892156	geckodriver	INFO	Listening on 127.0.0.1:64800
+1643154895226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64801" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile3EzBo6"
+1643154895506	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile3EzBo6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64801/devtools/browser/9a482dbb-21ca-4a98-8b29-03c8885a65b0
+1643154897271	Marionette	INFO	Listening on port 64807
+1643154897293	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643155077060	Marionette	INFO	Stopped listening on port 64807
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643155195757	geckodriver	INFO	Listening on 127.0.0.1:65079
+1643155198820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65080" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilelUm9M9"
+1643155199092	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilelUm9M9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65080/devtools/browser/7cae23e5-9375-4a38-8f19-06266e86ce56
+1643155200845	Marionette	INFO	Listening on port 65086
+1643155200904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643155319480	Marionette	INFO	Stopped listening on port 65086
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643155564377	geckodriver	INFO	Listening on 127.0.0.1:65377
+1643155567457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65378" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilec4M8Je"
+1643155567713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilec4M8Je\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65378/devtools/browser/66de9181-eb9f-4c49-ae50-a5e6820658e8
+1643155569572	Marionette	INFO	Listening on port 65385
+1643155569633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643155601196	Marionette	INFO	Stopped listening on port 65385
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643155726353	geckodriver	INFO	Listening on 127.0.0.1:49200
+1643155729422	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49201" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileJgGv6F"
+1643155729663	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileJgGv6F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49201/devtools/browser/83dae6e5-5e82-4c4f-9beb-13c716aa5af7
+1643155731408	Marionette	INFO	Listening on port 49208
+1643155731476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643155763143	Marionette	INFO	Stopped listening on port 49208
+1643155778207	geckodriver	INFO	Listening on 127.0.0.1:49350
+1643155781274	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49351" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile9psuBV"
+1643155781524	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile9psuBV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49351/devtools/browser/deaff3b1-e755-47f1-9145-685a69bda497
+1643155783305	Marionette	INFO	Listening on port 49358
+1643155783338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643156278109	Marionette	INFO	Stopped listening on port 49358
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1643156293226	geckodriver	INFO	Listening on 127.0.0.1:49784
+1643156296270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49785" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileTt9dGX"
+1643156296545	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileTt9dGX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49785/devtools/browser/affc1b2c-777a-42ae-a497-f73f160f42d6
+1643156298430	Marionette	INFO	Listening on port 49792
+1643156298465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643156326498	Marionette	INFO	Stopped listening on port 49792
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643156327789	geckodriver	INFO	Listening on 127.0.0.1:49930
+1643156330830	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49931" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileALK2Ph"
+1643156331074	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileALK2Ph\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49931/devtools/browser/b2c3d557-698d-4151-9123-9f3482a6df08
+1643156332734	Marionette	INFO	Listening on port 49937
+1643156332890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643156359698	Marionette	INFO	Stopped listening on port 49937
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643159292129	geckodriver	INFO	Listening on 127.0.0.1:62295
+1643159295210	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62296" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilegZH2eB"
+1643159295479	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilegZH2eB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62296/devtools/browser/e6f8bac8-3db6-4321-ad11-e4ab01faaec3
+1643159297467	Marionette	INFO	Listening on port 62301
+1643159297892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643159352876	Marionette	INFO	Stopped listening on port 62301
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643159355402	geckodriver	INFO	Listening on 127.0.0.1:62428
+1643159358481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62429" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileApEiqq"
+1643159358761	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileApEiqq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62429/devtools/browser/89a95ccf-6df1-4ceb-a73c-c8e858a56a23
+1643159360595	Marionette	INFO	Listening on port 62434
+1643159360656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://www.gstatic.com/recaptcha/releases/TDBxTlSsKAUm3tSIa0fwIqNu/styles__ltr.css without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://mp-assets.tcgplayer.com/fonts/inter.css without a browsingContextID set
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1643160840788	Marionette	INFO	Stopped listening on port 62434
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643160849922	geckodriver	INFO	Listening on 127.0.0.1:56953
+1643160852981	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56954" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileh5v6WF"
+1643160853263	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileh5v6WF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:56954/devtools/browser/ec316cdf-2f0f-480a-a5fd-6c4eb2f50837
+1643160855141	Marionette	INFO	Listening on port 56960
+1643160855158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643160900177	Marionette	INFO	Stopped listening on port 56960
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643160903314	geckodriver	INFO	Listening on 127.0.0.1:55453
+1643160906404	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55454" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile6fBlr6"
+1643160906655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofile6fBlr6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55454/devtools/browser/d0af0e23-cea8-425a-b583-10f36517f295
+1643160908461	Marionette	INFO	Listening on port 55462
+1643160908569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643160917541	Marionette	INFO	Stopped listening on port 55462
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161031615	geckodriver	INFO	Listening on 127.0.0.1:55653
+1643161034683	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55654" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileUZyyof"
+1643161034955	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileUZyyof\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55654/devtools/browser/d2874ca5-8c40-489a-836f-31c0a1736497
+1643161036783	Marionette	INFO	Listening on port 55661
+1643161036827	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161046167	Marionette	INFO	Stopped listening on port 55661
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161144218	geckodriver	INFO	Listening on 127.0.0.1:60798
+1643161147297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60799" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileHdA4Ep"
+1643161147571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileHdA4Ep\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60799/devtools/browser/bbf9a4f5-e44f-4c56-8210-86d895806eba
+1643161149388	Marionette	INFO	Listening on port 60806
+1643161149468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161170323	Marionette	INFO	Stopped listening on port 60806
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161173550	geckodriver	INFO	Listening on 127.0.0.1:60941
+1643161176619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60942" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileoAPHNy"
+1643161176943	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileoAPHNy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60942/devtools/browser/2ce248d9-339b-4cff-8e27-1893bc18a095
+1643161178765	Marionette	INFO	Listening on port 60949
+1643161178783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161188386	Marionette	INFO	Stopped listening on port 60949
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161253718	geckodriver	INFO	Listening on 127.0.0.1:61107
+1643161256776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61108" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileSmgqY2"
+1643161257026	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileSmgqY2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61108/devtools/browser/fb3f19e0-e189-4769-8a71-b9fba0aef11d
+1643161258799	Marionette	INFO	Listening on port 61116
+1643161258824	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161268105	Marionette	INFO	Stopped listening on port 61116
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161696004	geckodriver	INFO	Listening on 127.0.0.1:60300
+1643161699090	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60301" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilebVTRUY"
+1643161699343	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilebVTRUY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60301/devtools/browser/7a9d1691-05d8-4cfd-85dc-4f4867e19152
+1643161701207	Marionette	INFO	Listening on port 60307
+1643161701266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161741734	Marionette	INFO	Stopped listening on port 60307
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643161744989	geckodriver	INFO	Listening on 127.0.0.1:60451
+1643161748071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60452" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilexypqP7"
+1643161748325	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofilexypqP7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60452/devtools/browser/400165fc-1e69-4fb7-b747-cf7e6edf6cf4
+1643161750097	Marionette	INFO	Listening on port 60458
+1643161750111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643161769380	Marionette	INFO	Stopped listening on port 60458
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643162040428	geckodriver	INFO	Listening on 127.0.0.1:60729
+1643162043510	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60730" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileEmtbii"
+1643162043766	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileEmtbii\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60730/devtools/browser/9017029e-2908-4562-aacc-fe00a2ce91d7
+1643162045572	Marionette	INFO	Listening on port 60736
+1643162045669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1643162199958	Marionette	INFO	Stopped listening on port 60736
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\tytyk\AppData\Local\Temp\rust_mozprofileEmtbii\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1644364170860	geckodriver	INFO	Listening on 127.0.0.1:55639
+1644364173930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55640" "-no-remote" "-profile" "C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileHunscf"
+1644364174504	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\tytyk\\AppData\\Local\\Temp\\rust_mozprofileHunscf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55640/devtools/browser/c1ecc07a-3af9-44a1-aa46-b34169a8a275
+1644364176539	Marionette	INFO	Listening on port 55645
+1644364176649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.googletagmanager.com/gtm.js?id=GTM-MDKRQP, line 36: uncaught exception: [object Object]
+JavaScript error: https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English line 1 > injectedScript, line 1: TypeError: products is undefined
+1644364453264	Marionette	INFO	Stopped listening on port 55645
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A014F,name=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A007A,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\tytyk\AppData\Local\Temp\rust_mozprofileHunscf\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
