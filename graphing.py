@@ -12,8 +12,8 @@ from tcg_scraper.process import *
 
 
 # TCG Data collection
-NUMBER_OF_LINES =20100
-items, date_dict = read_from_file(NUMBER_OF_LINES, 'etb.txt')
+NUMBER_OF_LINES =20844 # 20100
+items, date_dict = read_from_file(NUMBER_OF_LINES, './tcg_scraper/etb.txt')
 
 # print(date_dict)
 date_price = find_averages_data(date_dict)[0]
@@ -21,15 +21,18 @@ date_price = find_averages_data(date_dict)[0]
 
 # Twitter Data Collection
 
-dates = collect_dates()
+dates = collect_dates_user('./twitter/', 'tweet_data.txt') # filters out repeat tweeters on the same day
 processed_data = process_data(dates)
 np_twitter_data = np.array(processed_data)
 
 
 np_tcg_data = np.array(date_price)
 
-# print(np_tcg_data[:,1])
-# print(np_twitter_data[:,1])
+print(np_twitter_data.shape)
+print(np_tcg_data.shape)
+
+# print(np_tcg_data[:,0])
+# print(np_twitter_data[:,0])
 
 # Why is it so hard to combine them
 one_d = np.transpose(np.array([np_tcg_data[:,1]]))
@@ -44,5 +47,6 @@ one_d = np.transpose(np.array([np_tcg_data[:,1]]))
 
 print(np.corrcoef(np_tcg_data[:,1].astype(float), np_twitter_data[:,1].astype(float)))
 
-
+plt.scatter(np_twitter_data[:,1].astype(float), np_tcg_data[:,1].astype(float))
+plt.show()
 plt.figure()

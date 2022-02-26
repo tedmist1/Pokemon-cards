@@ -2,8 +2,6 @@ import sys
 import requests
 import re
 import time
-from PyQt5 import QtCore, QtGui, QtWidgets
-from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
@@ -12,6 +10,7 @@ from selenium.webdriver.common.by import By
 
 #USAGE: Run this file "scrape.py > file.txt" where file.txt is the name of the file you're writing to. You'll need to update process.py to include the name of your new file.
 
+# IMPORTANT NOTE: It seems that tcgplayer only stores around the last 5125 sales, as each week when I update it, I get less of the old sales depending on how many new sales (even when adjusting my numbers for how many to look for)
 
 # CONSTANTS:
 
@@ -36,7 +35,7 @@ html = browser.page_source
 
 
 # class tag to find the "view sales history" button
-input = browser.find_element(By.XPATH, "//*[@class='svg-inline--fa fa-chevron-right fa-w-10']")
+input = browser.find_element(By.XPATH, "//*[@class='svg-inline--fa fa-chevron-right']")
 input.click()
 
 # SUCCESS! able to open up data here
