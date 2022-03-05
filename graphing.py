@@ -3,16 +3,10 @@ import numpy
 from twitter.twit_graph import *
 from tcg_scraper.process import *
 
-# twitter_data = np.genfromtxt('twitter/hashtags.csv', skip_header=1, delimiter=",")
-
-# tcg_data = np.genfromtxt('tcg_scraper/hashtags.csv', skip_header=1, delimiter=",")
-
-
-
+from myconfig import *
 
 
 # TCG Data collection
-NUMBER_OF_LINES =20844 # 20100
 items, date_dict = read_from_file(NUMBER_OF_LINES, './tcg_scraper/etb.txt')
 
 # print(date_dict)
@@ -21,7 +15,7 @@ date_price = find_averages_data(date_dict)[0]
 
 # Twitter Data Collection
 
-dates = collect_dates_user('./twitter/', 'tweet_data.txt') # filters out repeat tweeters on the same day
+dates = collect_dates_user('./twitter/', twitter_graphing_extension) # filters out repeat tweeters on the same day
 processed_data = process_data(dates)
 np_twitter_data = np.array(processed_data)
 

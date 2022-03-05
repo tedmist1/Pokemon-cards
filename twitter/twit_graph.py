@@ -2,22 +2,14 @@ import math
 import numpy as np
 from scipy import stats
 from datetime import datetime
-
 import matplotlib.pyplot as plt
 import matplotlib.dates
 
-filter = True # if filter is on, then remove all tweets before october
-start_date = datetime(2021, 10, 24) # IDK why this has to be 23 and not 24. Need to revisit this.
-end_date = datetime(2022, 2, 4)
+import sys
+# Importing general information
+sys.path.append('../')
+from myconfig import *
 
-# start_date = datetime(2021, 10, 23) # 2/14 there are 0 tweets. Need to fix it to have a '0' datapoint
-# end_date = datetime(2022, 2, 21)
-
-
-
-# start_date = datetime(2021, 10, 1)
-
-num_tweets = 17838//2
 
 # num_tweets = 10
 
@@ -27,29 +19,38 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
     f = open(relative_path+extension, "r")
 
     date_users ={}
+    date_popularity = {}
     for l in range(num_tweets):
         date = f.readline().strip()
         user = f.readline().strip()
+        popularity = 1 # Default popularity is 1 just for tweeting
+        if trackingPopularityPerTweet:
+            popularity = int(f.readline().strip()) + 1 # Add popularity to the base value of 1, if we care about tweet popularity
         # print(user)
         loc = date.find(" ")
         date = date[2:loc] # chop off after the " " and the 20 in 2022/2021
         date_time_obj = datetime.strptime(date, '%y-%m-%d')
 
 
-
+        
+        # We're just using date_users to make sure we dont have broken bots that spam tweeted. 
+        # All the important information is stored in date_popularity now
         if date_time_obj in date_users:
             if not user in date_users[date_time_obj]: # Dont add duplicates with the same user
                 date_users[date_time_obj].append(user)
+
+                date_popularity[date_time_obj] += popularity # Default popularity of a tweet is 1, and add more to it per retweet, like, reply
         else:
             date_users[date_time_obj] = [user] # keeping track of the users on particular dates
+            date_popularity[date_time_obj] = popularity 
 
 
     # print(date_users)
-    dates = {}
-    for i in date_users:
-        dates[i] = len(date_users[i])
+    # dates = {}
+    # for i in date_users:
+    #     dates[i] = len(date_users[i])
 
-    return dates
+    return date_popularity
 
 
 
@@ -97,7 +98,7 @@ def build_raw_graph():
 
 
 if __name__ == "__main__":
-    dates = collect_dates_user()
+    dates = collect_dates_user('', twitter_graphing_extension)
     processed_data = process_data(dates)
 
     np_data = np.array(processed_data)
