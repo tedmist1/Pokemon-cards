@@ -24,7 +24,7 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
         date = f.readline().strip()
         user = f.readline().strip()
         popularity = 1 # Default popularity is 1 just for tweeting
-        if trackingPopularityPerTweet:
+        if trackingPopularityPerTweet or use_followers: # Popularity and followercount behave the same
             popularity = int(f.readline().strip()) + 1 # Add popularity to the base value of 1, if we care about tweet popularity
         # print(user)
         loc = date.find(" ")

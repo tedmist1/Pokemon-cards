@@ -86,9 +86,8 @@ def build_raw_graph():
 def build_date_correlation_arr(np_data):
     new_arr = []
     for i in range(len(np_data)):
-        diff = (np_data[i][0] - start_date_process)
-        print(diff)
-        new_arr[i] = [start_date_process - np_data[i][0], np_data[i][1]]
+        diff = (np_data[i][0] - start_date_process).days
+        new_arr.append([diff, np_data[i][1]])
     return new_arr
 
 if __name__ == "__main__":
@@ -101,11 +100,11 @@ if __name__ == "__main__":
 
 
     # Generates a date-price graph
-    if date_price:
+    if date_price_bool:
         np_data = np.array(date_price)
         print(np_data)
         build_raw_graph()
-    if date_quantity:
+    if date_quantity_bool:
     # Generates a date-quantity graph
         daily_sales_dict = find_num_sales_date(date_dict)
         np_data = np.array(daily_sales_dict)
@@ -114,7 +113,11 @@ if __name__ == "__main__":
 
     # Generate correlation
     if correlation_generate:
+        np_data = np.array(date_price)
         corr_arr = build_date_correlation_arr(np_data)
-        prin(corr_arr)
+        np_corr = np.array(corr_arr)
+        print(np.corrcoef(np_corr[:,0].astype(float), np_corr[:,1].astype(float))) # Correlation between date and price
+        build_raw_graph()
+
 
     # print(np.corrcoef(np_tcg_data[:,1].astype(float), np_twitter_data[:,1].astype(float)))
