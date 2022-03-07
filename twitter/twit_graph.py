@@ -23,9 +23,9 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
     for l in range(num_tweets):
         date = f.readline().strip()
         user = f.readline().strip()
-        popularity = 1 # Default popularity is 1 just for tweeting
+        popularity = 3 # Default popularity is 3 just for tweeting (using the natural log)
         if trackingPopularityPerTweet or use_followers: # Popularity and followercount behave the same
-            popularity = int(f.readline().strip()) + 1 # Add popularity to the base value of 1, if we care about tweet popularity
+            popularity = int(f.readline().strip()) + 3 # Add popularity to the base value of 3, if we care about tweet popularity
         # print(user)
         loc = date.find(" ")
         date = date[2:loc] # chop off after the " " and the 20 in 2022/2021
@@ -39,10 +39,12 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
             if not user in date_users[date_time_obj]: # Dont add duplicates with the same user
                 date_users[date_time_obj].append(user)
 
-                date_popularity[date_time_obj] += popularity # Default popularity of a tweet is 1, and add more to it per retweet, like, reply
+                # print(popularity)
+                # print(math.floor(math.log(popularity)))
+                date_popularity[date_time_obj] += math.floor(math.log(popularity)) # Default popularity of a tweet is 3, and add more to it per retweet, like, reply / follower count
         else:
             date_users[date_time_obj] = [user] # keeping track of the users on particular dates
-            date_popularity[date_time_obj] = popularity 
+            date_popularity[date_time_obj] = math.floor(math.log(popularity)) 
 
 
     # print(date_users)
