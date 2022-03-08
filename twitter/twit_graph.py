@@ -24,7 +24,10 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
     date_list = [end_date - timedelta(days=x) for x in range((end_date - start_date).days)]
 
     for i in date_list:
-        date_popularity[i] = 0
+        if not likeretweetreply:
+            date_popularity[i] = 0
+        else:
+            date_popularity[i] = np.array([0, 0, 0, 0]) #like, retweet, reply, tweet_volume
 
     for l in range(num_tweets):
         date = f.readline().strip()
@@ -32,13 +35,22 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
         popularity = 3 # Default popularity is 3 just for tweeting (using the natural log)
         if trackingPopularityPerTweet or use_followers: # Popularity and followercount behave the same
             popularity = int(f.readline().strip()) + 3 # Add popularity to the base value of 3, if we care about tweet popularity
+
+        if likeretweetreply:
+            like = int(f.readline().strip())
+            retweet = int(f.readline().strip())
+            reply = int(f.readline().strip())
+
+       
+
         # print(user)
         loc = date.find(" ")
         date = date[2:loc] # chop off after the " " and the 20 in 2022/2021
 
         date_time_obj = datetime.strptime(date, '%y-%m-%d')
 
-        
+        if date_time_obj >= end_date or date_time_obj <= start_date:
+            continue
         
 
         
@@ -50,11 +62,19 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
 
                 # print(popularity)
                 # print(math.floor(math.log(popularity)))
-                date_popularity[date_time_obj] += math.floor(math.log(popularity)) # Default popularity of a tweet is 3, and add more to it per retweet, like, reply / follower count
+                if not likeretweetreply:
+                    date_popularity[date_time_obj] += math.floor(math.log(popularity)) # Default popularity of a tweet is 3, and add more to it per retweet, like, reply / follower count
+                else:
+                    date_popularity[date_time_obj] += np.array([like, retweet, reply, 1])
+
+
         else:
             date_users[date_time_obj] = [user] # keeping track of the users on particular dates
-            date_popularity[date_time_obj] = math.floor(math.log(popularity)) 
 
+            if not likeretweetreply:
+                date_popularity[date_time_obj] += math.floor(math.log(popularity)) # Default popularity of a tweet is 3, and add more to it per retweet, like, reply / follower count
+            else:
+                date_popularity[date_time_obj] += np.array([like, retweet, reply, 1])
 
     # print(date_users)
     # dates = {}
@@ -95,6 +115,17 @@ def process_data(dates):
     for i in dates:
         if not filter or (i > start_date and i < end_date):
             processed_data.append([i, dates[i]])
+    return processed_data
+
+
+def process_data_lrr(dates):
+    e = math.e
+    processed_data = []
+    for i in dates:
+        if not filter or (i > start_date and i < end_date):
+            # processed_data.append([i, dates[i][0], dates[i][1], dates[i][2], dates[i][3]])
+            # processed_data.append([(i - start_date_process).days, dates[i][0], dates[i][1], dates[i][2], dates[i][3]]) # 1st column is days since started
+            processed_data.append([(i - start_date_process).days, math.log(e + dates[i][0]), math.log(e + dates[i][1]), math.log(e +dates[i][2]), dates[i][3]]) # log of likes, retweets, replies
     return processed_data
 
 

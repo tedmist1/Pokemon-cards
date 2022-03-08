@@ -17,8 +17,10 @@ end_date_process = datetime(2022, 3, 6+offset_days)
 #Twitter processing variables
 filter = True # if filter is on, then remove all tweets before october
 # num_tweets = 17838//2 # The number of tweets we're going through (number of lines divided by 2 floored, since each tweet is two lines)
-num_tweets = 26712//3 # MANUAL: Update this value
-twitter_graphing_extension='tweet_pop.txt' # Needs to be updated whenever we change the extension
+num_tweets = 44530//5# MANUAL: Update this value
+twitter_graphing_extension='tweet_likeretweetreply.txt' # Needs to be updated whenever we change the extension
+# num_tweets = 17808//2
+# twitter_graphing_extension = 'tweet_data.txt'
 relative_path = ''
 
 
@@ -40,5 +42,7 @@ correlation_generate = True
 hashtag = ['#PokemonCelebrations']
 limitItems = False
 maximumItems = 10
-trackingPopularityPerTweet = True # Take each tweet and add its likes, retweets, and replies as an additional "hit" for that day
+trackingPopularityPerTweet = False # Take each tweet and add its likes, retweets, and replies as an additional "hit" for that day
 use_followers = False
+
+likeretweetreply = True # Writes the variables for building a model

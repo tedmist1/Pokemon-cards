@@ -26,7 +26,7 @@ def collect_data():
         if limitItems and i>maximumItems:
             break
 
-        if trackingPopularityPerTweet:
+        if trackingPopularityPerTweet or likeretweetreply:
             tweets_list1.append([tweet.date, tweet.hashtags, tweet.user, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
         elif use_followers:
             tweets_list1.append([tweet.date, tweet.hashtags, tweet.user, tweet.user.followersCount])
@@ -39,7 +39,7 @@ def collect_data():
 
 tweets_list1 = collect_data()
 
-if trackingPopularityPerTweet:
+if trackingPopularityPerTweet or likeretweetreply:
     tweets_df1 = pd.DataFrame(tweets_list1, columns=['Datetime', 'hashtags', 'User', 'Likes', 'Retweets', 'Replies'])
 elif use_followers:
     tweets_df1 = pd.DataFrame(tweets_list1, columns=['Datetime', 'hashtags', 'User', 'Followers'])
@@ -55,4 +55,8 @@ for i in tweets_df1.index:
         print(tweets_df1['Likes'][i] + tweets_df1['Retweets'][i] + tweets_df1['Replies'][i])
     elif use_followers:
             print(tweets_df1['Followers'][i])
+    elif likeretweetreply:
+        print(tweets_df1['Likes'][i]) 
+        print(tweets_df1['Retweets'][i]) 
+        print(tweets_df1['Replies'][i])
     
