@@ -1,7 +1,7 @@
 import math
 import numpy as np
 from scipy import stats
-from datetime import datetime
+from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import matplotlib.dates
 
@@ -20,6 +20,12 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
 
     date_users ={}
     date_popularity = {}
+
+    date_list = [end_date - timedelta(days=x) for x in range((end_date - start_date).days)]
+
+    for i in date_list:
+        date_popularity[i] = 0
+
     for l in range(num_tweets):
         date = f.readline().strip()
         user = f.readline().strip()
@@ -29,8 +35,11 @@ def collect_dates_user(relative_path='', extension='tweet_data.txt'):
         # print(user)
         loc = date.find(" ")
         date = date[2:loc] # chop off after the " " and the 20 in 2022/2021
+
         date_time_obj = datetime.strptime(date, '%y-%m-%d')
 
+        
+        
 
         
         # We're just using date_users to make sure we dont have broken bots that spam tweeted. 
@@ -61,6 +70,7 @@ def collect_dates(relative_path='', extension='tweet_time.txt'):
     
     f = open(relative_path+extension, "r")
     dates = {}
+
     for l in range(num_tweets): # number of tweets
         date = f.readline().strip()
         # loc = date.find("+")
@@ -98,13 +108,27 @@ def build_raw_graph():
     plt.title("Tweet volume by day")
     plt.show()
 
+def build_date_correlation_arr(np_data):
+    new_arr = []
+    for i in range(len(np_data)):
+        diff = (np_data[i][0] - start_date_process).days
+        new_arr.append([diff, np_data[i][1]])
+    return new_arr
+
 
 if __name__ == "__main__":
     dates = collect_dates_user('', twitter_graphing_extension)
     processed_data = process_data(dates)
 
     np_data = np.array(processed_data)
-    build_raw_graph()
+
+    if correlation_generate:
+        corr_arr = build_date_correlation_arr(np_data)
+        np_corr = np.array(corr_arr)
+        print(np.corrcoef(np_corr[:,0].astype(float), np_corr[:,1].astype(float))) # Correlation between date and price
+    
+        build_raw_graph()
+
 
 # data = np.genfromtxt('tweet_time.txt', skip_header=1, delimiter=';')
 # date_time = data

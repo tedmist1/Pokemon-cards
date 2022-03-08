@@ -22,8 +22,8 @@ np_twitter_data = np.array(processed_data)
 
 np_tcg_data = np.array(date_price)
 
-print(np_twitter_data.shape)
-print(np_tcg_data.shape)
+# print(np_twitter_data.shape)
+# print(np_tcg_data.shape)
 
 # print(np_tcg_data[:,0])
 # print(np_twitter_data[:,0])
@@ -42,5 +42,8 @@ one_d = np.transpose(np.array([np_tcg_data[:,1]]))
 print(np.corrcoef(np_tcg_data[:,1].astype(float), np_twitter_data[:,1].astype(float)))
 
 plt.scatter(np_twitter_data[:,1].astype(float), np_tcg_data[:,1].astype(float))
+plt.xlabel("Tweet Volume")
+plt.ylabel("Price")
+
 plt.show()
 plt.figure()

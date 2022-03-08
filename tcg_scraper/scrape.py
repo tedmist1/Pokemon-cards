@@ -20,9 +20,13 @@ URL = "https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebration
 # Finds the button to load more elements
 def hit_load_button(num=100):
     for i in range(num): # Probably should change to be not 100 times but some varying amount of time
-        load_more_button = browser.find_element(By.XPATH, "//*[@class='price-guide-modal__load-more']")
-        load_more_button.click()
-        time.sleep(1)
+        try:
+            load_more_button = browser.find_element(By.XPATH, "//*[@class='price-guide-modal__load-more']")
+            load_more_button.click()
+        except:
+            break
+        
+        time.sleep(0.3)
 
 
 

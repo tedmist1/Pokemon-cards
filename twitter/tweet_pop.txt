@@ -1,3 +1,45 @@
+2022-03-07 15:41:39+00:00
+https://twitter.com/BotInventory
+0
+2022-03-07 15:41:39+00:00
+https://twitter.com/BotCollectibles
+0
+2022-03-07 10:51:40+00:00
+https://twitter.com/MichaelChallis
+4
+2022-03-06 19:56:22+00:00
+https://twitter.com/BotInventory
+0
+2022-03-06 19:56:22+00:00
+https://twitter.com/BotCollectibles
+0
+2022-03-06 06:20:03+00:00
+https://twitter.com/BotCollectibles
+0
+2022-03-06 06:20:03+00:00
+https://twitter.com/BotInventory
+0
+2022-03-06 02:41:14+00:00
+https://twitter.com/AllinsonSpins
+1
+2022-03-06 01:30:57+00:00
+https://twitter.com/dannyamy10
+0
+2022-03-05 22:14:05+00:00
+https://twitter.com/BotInventory
+0
+2022-03-05 22:13:59+00:00
+https://twitter.com/BotCollectibles
+0
+2022-03-05 19:44:54+00:00
+https://twitter.com/BotCollectibles
+0
+2022-03-05 19:44:54+00:00
+https://twitter.com/BotInventory
+0
+2022-03-05 14:23:30+00:00
+https://twitter.com/LGBT_Collector
+0
 2022-03-04 21:51:21+00:00
 https://twitter.com/BotCollectibles
 0
@@ -12,7 +54,7 @@ https://twitter.com/BotCollectibles
 0
 2022-03-04 17:56:56+00:00
 https://twitter.com/HtuagG
-27
+277
 2022-03-04 11:28:10+00:00
 https://twitter.com/BotInventory
 0
@@ -30,10 +72,10 @@ https://twitter.com/BotCollectibles
 0
 2022-03-04 03:11:16+00:00
 https://twitter.com/bingerbox
-2
+3
 2022-03-04 03:04:21+00:00
 https://twitter.com/bingerbox
-3
+4
 2022-03-04 02:30:18+00:00
 https://twitter.com/BotCollectibles
 1
@@ -63,16 +105,10 @@ https://twitter.com/AllinsonSpins
 0
 2022-03-01 20:53:42+00:00
 https://twitter.com/JustAlanMP
-13
+14
 2022-03-01 20:32:34+00:00
 https://twitter.com/DNGR_Dave
 0
-2022-03-01 16:10:15+00:00
-https://twitter.com/ConorPokeNerd90
-0
-2022-03-01 07:13:52+00:00
-https://twitter.com/ConorPokeNerd90
-7
 2022-03-01 03:21:45+00:00
 https://twitter.com/dodefygaming
 0
@@ -106,9 +142,6 @@ https://twitter.com/AwsumPixies
 2022-02-27 17:42:10+00:00
 https://twitter.com/LGBT_Collector
 3
-2022-02-27 12:57:39+00:00
-https://twitter.com/ConorPokeNerd90
-5
 2022-02-27 06:33:21+00:00
 https://twitter.com/MarcTheLlama91
 10
@@ -160,18 +193,6 @@ https://twitter.com/MichaelChallis
 2022-02-21 08:12:21+00:00
 https://twitter.com/dannyamy10
 1
-2022-02-21 00:03:17+00:00
-https://twitter.com/ConorPokeNerd90
-2
-2022-02-20 23:58:59+00:00
-https://twitter.com/ConorPokeNerd90
-1
-2022-02-20 23:56:56+00:00
-https://twitter.com/ConorPokeNerd90
-2
-2022-02-20 08:58:16+00:00
-https://twitter.com/ConorPokeNerd90
-2
 2022-02-20 06:32:33+00:00
 https://twitter.com/NebulusSoul
 3
@@ -229,9 +250,6 @@ https://twitter.com/jonsan89pr
 2022-02-17 03:49:46+00:00
 https://twitter.com/jpsz6
 16
-2022-02-16 21:29:59+00:00
-https://twitter.com/ConorPokeNerd90
-2
 2022-02-16 20:11:25+00:00
 https://twitter.com/pokenoclue
 3
@@ -292,9 +310,6 @@ https://twitter.com/SSobble816
 2022-02-12 03:02:19+00:00
 https://twitter.com/SSobble816
 2
-2022-02-12 00:00:40+00:00
-https://twitter.com/InTheVogueParty
-0
 2022-02-11 19:49:43+00:00
 https://twitter.com/dannyamy10
 3
@@ -396,7 +411,7 @@ https://twitter.com/pkmnsnaps
 4
 2022-02-03 18:34:48+00:00
 https://twitter.com/pkmnsnaps
-131
+129
 2022-02-03 18:04:34+00:00
 https://twitter.com/BotInventory
 0
@@ -520,18 +535,9 @@ https://twitter.com/SSobble816
 2022-01-29 22:38:47+00:00
 https://twitter.com/thetomcat_10
 3
-2022-01-29 22:35:57+00:00
-https://twitter.com/ConorPokeNerd90
-0
-2022-01-29 22:33:35+00:00
-https://twitter.com/ConorPokeNerd90
-0
 2022-01-29 15:43:53+00:00
 https://twitter.com/Elb0wR0cket
 0
-2022-01-29 13:37:23+00:00
-https://twitter.com/ConorPokeNerd90
-1
 2022-01-29 00:03:08+00:00
 https://twitter.com/SltcViktor
 1
@@ -765,7 +771,7 @@ https://twitter.com/thegoblinsheist
 0
 2022-01-21 16:34:29+00:00
 https://twitter.com/PokemonTCGAZ
-571
+570
 2022-01-21 15:27:24+00:00
 https://twitter.com/pokenoclue
 1
@@ -952,9 +958,6 @@ https://twitter.com/Ventus_corp
 2022-01-17 22:49:52+00:00
 https://twitter.com/HeyJorgeHey
 0
-2022-01-17 22:09:32+00:00
-https://twitter.com/ConorPokeNerd90
-3
 2022-01-17 21:09:31+00:00
 https://twitter.com/BotInventory
 0
@@ -973,12 +976,9 @@ https://twitter.com/SSobble816
 2022-01-17 02:12:49+00:00
 https://twitter.com/SSobble816
 6
-2022-01-16 21:35:49+00:00
-https://twitter.com/ConorPokeNerd90
-2
 2022-01-16 20:01:22+00:00
 https://twitter.com/DavidStNazaire
-5
+6
 2022-01-16 19:30:11+00:00
 https://twitter.com/noelzo300
 4
@@ -988,18 +988,12 @@ https://twitter.com/Ventus_corp
 2022-01-16 18:52:40+00:00
 https://twitter.com/tabathasabbatha
 6
-2022-01-16 17:24:33+00:00
-https://twitter.com/ConorPokeNerd90
-8
 2022-01-16 17:24:28+00:00
 https://twitter.com/noelzo300
 43
 2022-01-16 17:22:27+00:00
 https://twitter.com/noelzo300
 5
-2022-01-16 13:45:24+00:00
-https://twitter.com/ConorPokeNerd90
-4
 2022-01-16 10:00:03+00:00
 https://twitter.com/BotCollectibles
 0
@@ -1020,9 +1014,6 @@ https://twitter.com/BotCollectibles
 0
 2022-01-15 20:58:52+00:00
 https://twitter.com/rgtxkent
-3
-2022-01-15 19:40:21+00:00
-https://twitter.com/ConorPokeNerd90
 3
 2022-01-15 18:32:20+00:00
 https://twitter.com/tommygeenyc
@@ -1081,18 +1072,12 @@ https://twitter.com/BotInventory
 2022-01-14 16:56:20+00:00
 https://twitter.com/GalarianGold
 1
-2022-01-14 16:44:13+00:00
-https://twitter.com/ConorPokeNerd90
-2
 2022-01-14 16:14:34+00:00
 https://twitter.com/BotInventory
 0
 2022-01-14 16:14:34+00:00
 https://twitter.com/BotCollectibles
 0
-2022-01-14 16:12:14+00:00
-https://twitter.com/ConorPokeNerd90
-4
 2022-01-14 13:58:33+00:00
 https://twitter.com/PokeTimDelLaTom
 4
@@ -1126,9 +1111,6 @@ https://twitter.com/BotCollectibles
 2022-01-14 06:59:22+00:00
 https://twitter.com/BotInventory
 0
-2022-01-14 06:06:48+00:00
-https://twitter.com/ConorPokeNerd90
-3
 2022-01-14 05:46:43+00:00
 https://twitter.com/yohackett
 1
@@ -1149,7 +1131,7 @@ https://twitter.com/msshellys
 1
 2022-01-14 02:55:26+00:00
 https://twitter.com/funkofinderz
-2429
+2426
 2022-01-14 01:44:31+00:00
 https://twitter.com/BotInventory
 0
@@ -1240,12 +1222,6 @@ https://twitter.com/BotCollectibles
 2022-01-13 10:20:48+00:00
 https://twitter.com/BotInventory
 0
-2022-01-13 08:34:54+00:00
-https://twitter.com/ConorPokeNerd90
-1
-2022-01-13 08:30:05+00:00
-https://twitter.com/ConorPokeNerd90
-1
 2022-01-13 08:01:15+00:00
 https://twitter.com/BotCollectibles
 0
@@ -1291,33 +1267,18 @@ https://twitter.com/GalarianGold
 2022-01-12 15:12:48+00:00
 https://twitter.com/WaterstonesWoT
 0
-2022-01-12 11:09:33+00:00
-https://twitter.com/ConorPokeNerd90
-3
 2022-01-12 10:20:59+00:00
 https://twitter.com/BotInventory
 0
 2022-01-12 10:20:59+00:00
 https://twitter.com/BotCollectibles
 0
-2022-01-12 10:00:32+00:00
-https://twitter.com/ConorPokeNerd90
-2
 2022-01-12 09:29:27+00:00
 https://twitter.com/MichaelChallis
 3
 2022-01-12 08:57:41+00:00
 https://twitter.com/PJ_lstr
 0
-2022-01-12 08:38:03+00:00
-https://twitter.com/ConorPokeNerd90
-1
-2022-01-12 08:26:57+00:00
-https://twitter.com/ConorPokeNerd90
-4
-2022-01-12 08:25:40+00:00
-https://twitter.com/ConorPokeNerd90
-6
 2022-01-12 05:03:50+00:00
 https://twitter.com/BotCollectibles
 0
@@ -1375,18 +1336,9 @@ https://twitter.com/Ventus_corp
 2022-01-11 15:23:19+00:00
 https://twitter.com/callmelizz7
 13
-2022-01-11 14:59:16+00:00
-https://twitter.com/ConorPokeNerd90
-1
-2022-01-11 14:41:52+00:00
-https://twitter.com/ConorPokeNerd90
-1
 2022-01-11 13:51:42+00:00
 https://twitter.com/1RareCard
 1
-2022-01-11 13:16:28+00:00
-https://twitter.com/ConorPokeNerd90
-0
 2022-01-11 12:09:21+00:00
 https://twitter.com/EntonBerlin
 15
@@ -1417,9 +1369,6 @@ https://twitter.com/BotInventory
 2022-01-11 09:21:56+00:00
 https://twitter.com/BotCollectibles
 1
-2022-01-11 08:51:40+00:00
-https://twitter.com/ConorPokeNerd90
-3
 2022-01-11 07:30:28+00:00
 https://twitter.com/BotInventory
 0
@@ -1486,9 +1435,6 @@ https://twitter.com/BotInventory
 2022-01-10 05:01:08+00:00
 https://twitter.com/BotCollectibles
 1
-2022-01-09 22:23:35+00:00
-https://twitter.com/ConorPokeNerd90
-5
 2022-01-09 21:49:00+00:00
 https://twitter.com/BotCollectibles
 0
@@ -1542,7 +1488,7 @@ https://twitter.com/BotInventory
 0
 2022-01-09 03:04:35+00:00
 https://twitter.com/funkofinderz
-2705
+2698
 2022-01-09 02:17:22+00:00
 https://twitter.com/BotInventory
 0
@@ -1765,9 +1711,6 @@ https://twitter.com/pkmnsnaps
 2022-01-06 17:16:51+00:00
 https://twitter.com/BNBoyntonBeach
 0
-2022-01-06 12:00:15+00:00
-https://twitter.com/ConorPokeNerd90
-8
 2022-01-06 10:06:04+00:00
 https://twitter.com/TheGamingASE
 3
@@ -1968,7 +1911,7 @@ https://twitter.com/justints21
 0
 2022-01-03 20:31:56+00:00
 https://twitter.com/DonnnySins
-4709
+4707
 2022-01-03 19:31:34+00:00
 https://twitter.com/TripleCYeg
 9
@@ -1989,7 +1932,7 @@ https://twitter.com/StacyBauer22
 0
 2022-01-03 17:41:56+00:00
 https://twitter.com/funkofinderz
-2834
+2833
 2022-01-03 17:10:56+00:00
 https://twitter.com/BotInventory
 0
@@ -2250,7 +2193,7 @@ https://twitter.com/dannyamy10
 1
 2021-12-31 14:03:40+00:00
 https://twitter.com/smokeydex
-2
+1
 2021-12-31 08:25:50+00:00
 https://twitter.com/VillelaBrittany
 0
@@ -2508,7 +2451,7 @@ https://twitter.com/thetomcat_10
 11
 2021-12-25 17:34:46+00:00
 https://twitter.com/Hordebane
-862
+859
 2021-12-25 16:45:58+00:00
 https://twitter.com/GamingDmb
 10
@@ -3294,7 +3237,7 @@ https://twitter.com/BotCollectibles
 0
 2021-12-20 10:01:50+00:00
 https://twitter.com/JavizGaming
-2587
+2586
 2021-12-20 10:01:25+00:00
 https://twitter.com/BotCollectibles
 0
@@ -4860,7 +4803,7 @@ https://twitter.com/BNNorthwestLV
 3
 2021-12-18 21:24:58+00:00
 https://twitter.com/Typhlosion23
-42
+41
 2021-12-18 20:01:59+00:00
 https://twitter.com/ArKadecat
 4
@@ -5101,6 +5044,9 @@ https://twitter.com/SSobble816
 2021-12-16 02:42:57+00:00
 https://twitter.com/pikasquish93
 4
+2021-12-16 01:25:36+00:00
+https://twitter.com/michau_william
+3
 2021-12-16 00:30:15+00:00
 https://twitter.com/BotCollectibles
 0
@@ -5155,6 +5101,9 @@ https://twitter.com/LGBT_Collector
 2021-12-15 14:04:16+00:00
 https://twitter.com/LGBT_Collector
 0
+2021-12-15 03:14:36+00:00
+https://twitter.com/michau_william
+2
 2021-12-15 02:52:36+00:00
 https://twitter.com/tinymech
 6
@@ -5175,7 +5124,7 @@ https://twitter.com/jfritzilla
 2
 2021-12-14 22:53:33+00:00
 https://twitter.com/MetroPoke
-2306
+2307
 2021-12-14 22:23:00+00:00
 https://twitter.com/dannyamy10
 2
@@ -5442,7 +5391,7 @@ https://twitter.com/dannyamy10
 1
 2021-12-12 02:18:04+00:00
 https://twitter.com/DonnnySins
-9257
+9254
 2021-12-11 21:03:01+00:00
 https://twitter.com/BotInventory
 0
@@ -5790,7 +5739,7 @@ https://twitter.com/TonemonYT
 0
 2021-12-08 19:56:29+00:00
 https://twitter.com/DonnnySins
-7234
+7229
 2021-12-08 19:17:39+00:00
 https://twitter.com/BotCollectibles
 0
@@ -6280,6 +6229,9 @@ https://twitter.com/camnavarrosoto
 2021-12-04 01:06:16+00:00
 https://twitter.com/MarcTheLlama91
 7
+2021-12-03 23:22:53+00:00
+https://twitter.com/michau_william
+3
 2021-12-03 22:08:59+00:00
 https://twitter.com/VileMK2
 3
@@ -6421,9 +6373,6 @@ https://twitter.com/BotCollectibles
 2021-12-02 04:06:11+00:00
 https://twitter.com/luvopeningstuff
 0
-2021-12-02 03:54:13+00:00
-https://twitter.com/mayday_xjohn
-7
 2021-12-02 01:51:29+00:00
 https://twitter.com/BotCollectibles
 0
@@ -6804,7 +6753,16 @@ https://twitter.com/MarcTheLlama91
 11
 2021-11-29 01:14:45+00:00
 https://twitter.com/LlcPickaxe
-770
+768
+2021-11-28 23:49:01+00:00
+https://twitter.com/michau_william
+5
+2021-11-28 23:40:20+00:00
+https://twitter.com/michau_william
+2
+2021-11-28 23:30:08+00:00
+https://twitter.com/michau_william
+2
 2021-11-28 23:10:14+00:00
 https://twitter.com/insanestickers
 2
@@ -6919,6 +6877,9 @@ https://twitter.com/iFuckedizzy
 2021-11-28 00:45:29+00:00
 https://twitter.com/TO_SMWiz
 4
+2021-11-28 00:37:48+00:00
+https://twitter.com/michau_william
+4
 2021-11-27 22:56:33+00:00
 https://twitter.com/BotInventory
 0
@@ -6954,7 +6915,7 @@ https://twitter.com/BotInventory
 0
 2021-11-27 20:46:57+00:00
 https://twitter.com/traffymusic
-14
+13
 2021-11-27 19:52:27+00:00
 https://twitter.com/BotInventory
 0
@@ -7878,7 +7839,7 @@ https://twitter.com/That1FrenchGuy
 0
 2021-11-22 17:36:13+00:00
 https://twitter.com/PokemonTCGAZ
-3557
+3548
 2021-11-22 16:01:41+00:00
 https://twitter.com/LGBT_Collector
 1
@@ -8211,7 +8172,7 @@ https://twitter.com/DeadlyKttnPaws
 2
 2021-11-20 01:53:13+00:00
 https://twitter.com/DonnnySins
-4858
+4852
 2021-11-20 01:44:35+00:00
 https://twitter.com/Rawr_Beast17
 2
@@ -8265,9 +8226,6 @@ https://twitter.com/tcgdeals
 5
 2021-11-19 21:11:19+00:00
 https://twitter.com/SwitchClickss
-0
-2021-11-19 21:07:44+00:00
-https://twitter.com/milo2120
 0
 2021-11-19 20:50:04+00:00
 https://twitter.com/kirstygreen11
@@ -8325,7 +8283,7 @@ https://twitter.com/BotCollectibles
 1
 2021-11-19 16:16:14+00:00
 https://twitter.com/PokemonTCGAZ
-1267
+1263
 2021-11-19 15:43:03+00:00
 https://twitter.com/iamEp1cTV
 0
@@ -8422,9 +8380,6 @@ https://twitter.com/BotCollectibles
 2021-11-19 03:32:09+00:00
 https://twitter.com/HansomeJoshie
 2
-2021-11-19 03:21:56+00:00
-https://twitter.com/milo2120
-6
 2021-11-19 01:22:16+00:00
 https://twitter.com/BotInventory
 0
@@ -9349,15 +9304,12 @@ https://twitter.com/BotCollectibles
 2021-11-14 01:13:49+00:00
 https://twitter.com/BotInventory
 0
-2021-11-14 01:08:25+00:00
-https://twitter.com/milo2120
-4
 2021-11-14 00:26:50+00:00
 https://twitter.com/JackFrdtw
 5
 2021-11-13 23:11:49+00:00
 https://twitter.com/MsDBZbae
-92
+91
 2021-11-13 23:02:38+00:00
 https://twitter.com/OrngRanger
 4
@@ -9438,7 +9390,7 @@ https://twitter.com/LokiLoquita
 43
 2021-11-13 16:34:55+00:00
 https://twitter.com/PokeTaj
-94
+93
 2021-11-13 16:32:52+00:00
 https://twitter.com/Someguy12121
 4
@@ -9804,7 +9756,7 @@ https://twitter.com/SnorlaxPokekid
 3
 2021-11-12 14:31:16+00:00
 https://twitter.com/Die_annee
-1167
+1166
 2021-11-12 14:30:16+00:00
 https://twitter.com/UnicornCardsUK
 2
@@ -10068,7 +10020,7 @@ https://twitter.com/crwojoski
 2
 2021-11-11 05:11:55+00:00
 https://twitter.com/DonnnySins
-6325
+6318
 2021-11-11 05:09:29+00:00
 https://twitter.com/hassanahmed120
 27
@@ -10078,9 +10030,6 @@ https://twitter.com/JackFrdtw
 2021-11-11 03:42:12+00:00
 https://twitter.com/DonnnySins
 1
-2021-11-11 03:29:37+00:00
-https://twitter.com/milo2120
-2
 2021-11-11 03:02:31+00:00
 https://twitter.com/DisTrackers
 73
@@ -10249,9 +10198,6 @@ https://twitter.com/yevguineapig
 2021-11-10 02:35:47+00:00
 https://twitter.com/MajinJbo
 3
-2021-11-10 01:54:50+00:00
-https://twitter.com/milo2120
-0
 2021-11-10 01:16:21+00:00
 https://twitter.com/Fearmp88
 2
@@ -10356,7 +10302,7 @@ https://twitter.com/missingnocards
 2
 2021-11-09 15:24:08+00:00
 https://twitter.com/no_ygo
-3
+4
 2021-11-09 15:13:10+00:00
 https://twitter.com/DerangedHulk
 1
@@ -10687,9 +10633,6 @@ https://twitter.com/bleedingcool
 2021-11-07 21:04:34+00:00
 https://twitter.com/Tidushot
 75
-2021-11-07 20:41:38+00:00
-https://twitter.com/gameboy_bunny
-19
 2021-11-07 20:23:45+00:00
 https://twitter.com/AshEcho
 16
@@ -10783,15 +10726,9 @@ https://twitter.com/ggaemerofficial
 2021-11-07 03:04:53+00:00
 https://twitter.com/Bidoofie
 11
-2021-11-07 02:21:47+00:00
-https://twitter.com/milo2120
-2
-2021-11-07 02:17:22+00:00
-https://twitter.com/milo2120
-2
 2021-11-07 02:11:39+00:00
 https://twitter.com/LlcPickaxe
-969
+967
 2021-11-07 01:23:49+00:00
 https://twitter.com/OminousGo
 1
@@ -10866,7 +10803,7 @@ https://twitter.com/itsmewicksy
 5
 2021-11-06 18:17:54+00:00
 https://twitter.com/Chaotix_UX
-8
+6
 2021-11-06 17:24:59+00:00
 https://twitter.com/online_orphan
 9
@@ -11335,9 +11272,6 @@ https://twitter.com/RynoPokemon
 2021-11-04 03:03:26+00:00
 https://twitter.com/lucianostea
 2
-2021-11-04 03:01:40+00:00
-https://twitter.com/milo2120
-2
 2021-11-04 02:59:32+00:00
 https://twitter.com/CardsAnime
 2
@@ -11404,9 +11338,6 @@ https://twitter.com/shospeed
 2021-11-03 21:40:38+00:00
 https://twitter.com/ThePandaleo
 3
-2021-11-03 21:33:54+00:00
-https://twitter.com/RaiderV3M
-25
 2021-11-03 21:27:39+00:00
 https://twitter.com/NerdBitesWeekly
 1
@@ -12151,15 +12082,6 @@ https://twitter.com/itssayachu
 2021-10-31 02:09:05+00:00
 https://twitter.com/RealSeanSmart
 5
-2021-10-31 02:07:10+00:00
-https://twitter.com/milo2120
-0
-2021-10-31 02:06:52+00:00
-https://twitter.com/milo2120
-0
-2021-10-31 02:05:23+00:00
-https://twitter.com/milo2120
-0
 2021-10-31 01:34:55+00:00
 https://twitter.com/mm_vegas
 5
@@ -12195,7 +12117,7 @@ https://twitter.com/ShadowsenseEDM
 1
 2021-10-30 21:51:12+00:00
 https://twitter.com/fatz_official
-1099
+1097
 2021-10-30 21:44:33+00:00
 https://twitter.com/Kangasconrad
 10
@@ -12219,9 +12141,6 @@ https://twitter.com/wes_hamachi
 1
 2021-10-30 20:12:22+00:00
 https://twitter.com/Rokness1
-1
-2021-10-30 20:07:58+00:00
-https://twitter.com/milo2120
 1
 2021-10-30 19:46:29+00:00
 https://twitter.com/TixBelgium
@@ -12406,9 +12325,6 @@ https://twitter.com/Krissychu
 2021-10-30 00:15:09+00:00
 https://twitter.com/mtgboxsim
 4
-2021-10-30 00:04:25+00:00
-https://twitter.com/milo2120
-0
 2021-10-29 23:44:28+00:00
 https://twitter.com/SupremeAmigo
 5
@@ -12481,6 +12397,9 @@ https://twitter.com/SenyorDva
 2021-10-29 20:38:39+00:00
 https://twitter.com/GOStadiumPvP
 30
+2021-10-29 20:30:38+00:00
+https://twitter.com/1989JR93230
+0
 2021-10-29 20:16:52+00:00
 https://twitter.com/zmd91
 0
@@ -12932,7 +12851,7 @@ https://twitter.com/ItssReckless_
 https://twitter.com/TimboSpiraken
 4
 2021-10-28 20:50:53+00:00
-https://twitter.com/CaptCrainum
+https://twitter.com/DanTheeMan___
 8
 2021-10-28 20:49:54+00:00
 https://twitter.com/27Gamergirl
@@ -12971,7 +12890,7 @@ https://twitter.com/volcom18pr
 https://twitter.com/TheDeNut
 4
 2021-10-28 20:09:56+00:00
-https://twitter.com/CaptCrainum
+https://twitter.com/DanTheeMan___
 1
 2021-10-28 19:57:39+00:00
 https://twitter.com/everygeekday
@@ -13207,9 +13126,6 @@ https://twitter.com/9thjimleader
 2021-10-28 02:55:53+00:00
 https://twitter.com/SubieOso
 3
-2021-10-28 02:22:13+00:00
-https://twitter.com/milo2120
-1
 2021-10-28 01:58:48+00:00
 https://twitter.com/pinky_pogo
 12
@@ -13366,9 +13282,6 @@ https://twitter.com/SimonPhonix
 2021-10-27 16:40:50+00:00
 https://twitter.com/flying_lake
 5
-2021-10-27 16:33:36+00:00
-https://twitter.com/milo2120
-3
 2021-10-27 16:27:19+00:00
 https://twitter.com/GuildDreams
 1
@@ -13405,9 +13318,6 @@ https://twitter.com/ChronicMoron1
 2021-10-27 14:20:18+00:00
 https://twitter.com/ChicagoPoke
 13
-2021-10-27 14:15:16+00:00
-https://twitter.com/milo2120
-1
 2021-10-27 13:53:15+00:00
 https://twitter.com/Rayan925FR
 3
@@ -13616,7 +13526,7 @@ https://twitter.com/PokeEmpireYT
 https://twitter.com/Newmanslogic
 4
 2021-10-26 22:03:33+00:00
-https://twitter.com/CaptCrainum
+https://twitter.com/DanTheeMan___
 2
 2021-10-26 21:29:10+00:00
 https://twitter.com/borypb
@@ -13818,7 +13728,7 @@ https://twitter.com/elfearsfoxsox
 1
 2021-10-26 14:04:11+00:00
 https://twitter.com/EntonBerlin
-16
+15
 2021-10-26 13:20:31+00:00
 https://twitter.com/xexeu_
 33
@@ -13835,7 +13745,7 @@ https://twitter.com/GGMattt_
 https://twitter.com/POKEVERSE_
 44
 2021-10-26 09:11:37+00:00
-https://twitter.com/CaptCrainum
+https://twitter.com/DanTheeMan___
 2
 2021-10-26 08:51:07+00:00
 https://twitter.com/RosoDeluxe
@@ -13987,9 +13897,6 @@ https://twitter.com/whiterabbitMUC
 2021-10-25 21:10:02+00:00
 https://twitter.com/pottel769
 3
-2021-10-25 21:07:42+00:00
-https://twitter.com/RaiderV3M
-6
 2021-10-25 21:00:38+00:00
 https://twitter.com/NihilaCruor
 1
@@ -14206,9 +14113,6 @@ https://twitter.com/Georgio1227
 2021-10-25 02:39:49+00:00
 https://twitter.com/DeadlyKttnPaws
 16
-2021-10-25 02:32:13+00:00
-https://twitter.com/RaiderV3M
-4
 2021-10-25 02:32:03+00:00
 https://twitter.com/LlcPickaxe
 41
@@ -14269,9 +14173,6 @@ https://twitter.com/MikeFPlays
 2021-10-24 23:10:06+00:00
 https://twitter.com/botanicalshroom
 1
-2021-10-24 23:08:13+00:00
-https://twitter.com/gameboy_bunny
-13
 2021-10-24 22:59:32+00:00
 https://twitter.com/MissTwistedRose
 13
@@ -14419,6 +14320,9 @@ https://twitter.com/SMC_69
 2021-10-24 14:58:02+00:00
 https://twitter.com/wynnebagel
 6
+2021-10-24 14:56:06+00:00
+https://twitter.com/1989JR93230
+9
 2021-10-24 14:44:42+00:00
 https://twitter.com/Downtime_Cards
 4
@@ -14796,7 +14700,7 @@ https://twitter.com/Moore33Gaming
 34
 2021-10-23 17:37:57+00:00
 https://twitter.com/ChristieBlink
-105
+104
 2021-10-23 17:01:45+00:00
 https://twitter.com/Amordalin
 0
@@ -15031,9 +14935,6 @@ https://twitter.com/JoshMadrig
 2021-10-23 01:10:21+00:00
 https://twitter.com/Dexsterpiece
 13
-2021-10-23 01:04:04+00:00
-https://twitter.com/milo2120
-1
 2021-10-23 00:59:19+00:00
 https://twitter.com/LlcPickaxe
 68
@@ -15679,9 +15580,6 @@ https://twitter.com/TheKiwiOtaku
 2021-10-22 06:36:32+00:00
 https://twitter.com/TheZukayo
 3
-2021-10-22 06:20:01+00:00
-https://twitter.com/milo2120
-2
 2021-10-22 06:04:31+00:00
 https://twitter.com/SenyorDva
 4
@@ -15852,7 +15750,7 @@ https://twitter.com/George2D_
 5
 2021-10-21 19:55:47+00:00
 https://twitter.com/_Rsquirtle
-62
+63
 2021-10-21 19:40:21+00:00
 https://twitter.com/cclarky90
 1
@@ -16470,10 +16368,10 @@ https://twitter.com/Captain_rafa
 8
 2021-10-20 04:11:07+00:00
 https://twitter.com/ModestFlinch
-151
+150
 2021-10-20 04:03:39+00:00
 https://twitter.com/SUDDOTH2
-8
+7
 2021-10-20 03:53:09+00:00
 https://twitter.com/NicolesChoice1
 2
@@ -17077,9 +16975,6 @@ https://twitter.com/Aleiks_vtuber
 2021-10-18 09:41:19+00:00
 https://twitter.com/TheeKingSlayer
 6
-2021-10-18 09:07:54+00:00
-https://twitter.com/nintendocrybaby
-1
 2021-10-18 07:18:42+00:00
 https://twitter.com/Japanime9393
 5
@@ -17122,6 +17017,9 @@ https://twitter.com/MaximumMagus
 2021-10-18 04:05:18+00:00
 https://twitter.com/sashashadowolf
 4
+2021-10-18 04:03:17+00:00
+https://twitter.com/1989JR93230
+0
 2021-10-18 03:53:35+00:00
 https://twitter.com/LoneWulff92
 1
@@ -17436,7 +17334,7 @@ https://twitter.com/tydrennis
 1
 2021-10-16 23:30:08+00:00
 https://twitter.com/ANN3THRAX
-264
+262
 2021-10-16 23:20:49+00:00
 https://twitter.com/erikcervantes
 2
@@ -17520,7 +17418,7 @@ https://twitter.com/Gamertose
 0
 2021-10-16 19:56:25+00:00
 https://twitter.com/TeeToGames
-253
+251
 2021-10-16 19:49:35+00:00
 https://twitter.com/TeemoIsFed
 6
@@ -18231,7 +18129,7 @@ https://twitter.com/Tays_Space
 5
 2021-10-15 10:50:20+00:00
 https://twitter.com/Oliver_MKP
-126
+125
 2021-10-15 10:46:44+00:00
 https://twitter.com/pkm_matt
 2
@@ -18358,6 +18256,9 @@ https://twitter.com/Bethey_93
 2021-10-15 00:58:16+00:00
 https://twitter.com/peatea_
 3
+2021-10-15 00:45:55+00:00
+https://twitter.com/gamerorperish01
+1
 2021-10-15 00:40:39+00:00
 https://twitter.com/RavenWitchShade
 2
@@ -18501,7 +18402,7 @@ https://twitter.com/Desireedtd
 1
 2021-10-14 21:34:17+00:00
 https://twitter.com/POKEVERSE_
-19
+18
 2021-10-14 21:29:15+00:00
 https://twitter.com/DaSneakerDoc1
 8
@@ -18994,9 +18895,6 @@ https://twitter.com/Collectentpori1
 2021-10-13 22:57:22+00:00
 https://twitter.com/PokeTrainerXand
 0
-2021-10-13 22:54:37+00:00
-https://twitter.com/milo2120
-0
 2021-10-13 22:54:26+00:00
 https://twitter.com/ctrlaltcraft
 9
@@ -19231,6 +19129,9 @@ https://twitter.com/cold_dabs
 2021-10-13 17:08:34+00:00
 https://twitter.com/desentz_larry
 2
+2021-10-13 17:08:30+00:00
+https://twitter.com/thepandalion
+10
 2021-10-13 17:05:57+00:00
 https://twitter.com/RealSeanSmart
 9
@@ -19261,6 +19162,9 @@ https://twitter.com/HundoJay
 2021-10-13 16:10:41+00:00
 https://twitter.com/DavidStNazaire
 12
+2021-10-13 16:02:44+00:00
+https://twitter.com/wings_ofmy
+3
 2021-10-13 15:58:14+00:00
 https://twitter.com/SchillermansF
 4
@@ -19315,9 +19219,6 @@ https://twitter.com/CollectorPatG
 2021-10-13 14:19:06+00:00
 https://twitter.com/ThePokemonTrade
 3
-2021-10-13 14:10:26+00:00
-https://twitter.com/ConorPokeNerd90
-1
 2021-10-13 13:53:53+00:00
 https://twitter.com/AshiiDesu
 3
@@ -20104,9 +20005,6 @@ https://twitter.com/TorboQPulls
 2021-10-12 00:14:28+00:00
 https://twitter.com/TorboQPulls
 0
-2021-10-12 00:03:57+00:00
-https://twitter.com/gameboy_bunny
-1
 2021-10-11 23:45:35+00:00
 https://twitter.com/myfigspot
 8
@@ -20363,7 +20261,7 @@ https://twitter.com/NoDakRips
 https://twitter.com/FrenchFrIssac
 7
 2021-10-11 18:07:15+00:00
-https://twitter.com/1stprinceofOzam
+https://twitter.com/PrinceofOzamiz
 0
 2021-10-11 18:03:07+00:00
 https://twitter.com/Shiny_Legend
@@ -20583,7 +20481,7 @@ https://twitter.com/big_ben376
 0
 2021-10-11 05:30:19+00:00
 https://twitter.com/BlueRabbitInc
-15
+14
 2021-10-11 05:14:03+00:00
 https://twitter.com/Maxytheflash
 0
@@ -20889,7 +20787,7 @@ https://twitter.com/poke__ballers
 9
 2021-10-10 18:29:15+00:00
 https://twitter.com/thewossy
-13
+12
 2021-10-10 18:28:13+00:00
 https://twitter.com/HobbyHero_Bros
 0
@@ -21240,7 +21138,7 @@ https://twitter.com/954collection
 0
 2021-10-10 06:24:13+00:00
 https://twitter.com/Stoner_Lesbiann
-73
+72
 2021-10-10 06:16:12+00:00
 https://twitter.com/bleedingcool
 2
@@ -21441,7 +21339,7 @@ https://twitter.com/PKMNCappy
 0
 2021-10-10 00:31:46+00:00
 https://twitter.com/CmagsPOKE
-67
+66
 2021-10-10 00:31:03+00:00
 https://twitter.com/PKMNCappy
 1
@@ -21849,7 +21747,7 @@ https://twitter.com/thewossy
 19
 2021-10-09 19:08:34+00:00
 https://twitter.com/poke__ballers
-10
+9
 2021-10-09 19:08:08+00:00
 https://twitter.com/Benjami74632524
 2
@@ -22131,7 +22029,7 @@ https://twitter.com/GAMEWalsall
 4
 2021-10-09 16:15:19+00:00
 https://twitter.com/ZenturionXYZ
-48
+47
 2021-10-09 16:14:30+00:00
 https://twitter.com/seaweedbrainmp
 0
@@ -22149,7 +22047,7 @@ https://twitter.com/OopsIShitted
 2
 2021-10-09 16:04:39+00:00
 https://twitter.com/staybanproof
-9
+8
 2021-10-09 16:00:36+00:00
 https://twitter.com/alanisnotok
 0
@@ -22287,7 +22185,7 @@ https://twitter.com/RobertH68541123
 4
 2021-10-09 14:46:07+00:00
 https://twitter.com/AL3XCharChar
-241
+237
 2021-10-09 14:40:08+00:00
 https://twitter.com/Christophroarrr
 1
@@ -22624,6 +22522,9 @@ https://twitter.com/Jesus_Joestar
 2021-10-09 05:37:57+00:00
 https://twitter.com/TheRealTLovan
 10
+2021-10-09 05:36:49+00:00
+https://twitter.com/1989JR93230
+0
 2021-10-09 05:35:58+00:00
 https://twitter.com/ErikCastiIIo
 1
@@ -22762,9 +22663,6 @@ https://twitter.com/RobertRende
 2021-10-09 03:13:09+00:00
 https://twitter.com/GiantGingerGame
 9
-2021-10-09 03:11:37+00:00
-https://twitter.com/milo2120
-0
 2021-10-09 03:09:14+00:00
 https://twitter.com/padismack
 0
@@ -22777,6 +22675,9 @@ https://twitter.com/MarkAllenJr
 2021-10-09 02:59:26+00:00
 https://twitter.com/vader_later
 2
+2021-10-09 02:56:30+00:00
+https://twitter.com/1989JR93230
+0
 2021-10-09 02:52:45+00:00
 https://twitter.com/1BadPhu
 1
@@ -23304,7 +23205,7 @@ https://twitter.com/WillCTidwell
 0
 2021-10-08 23:08:51+00:00
 https://twitter.com/jamesraylangley
-17
+16
 2021-10-08 23:06:39+00:00
 https://twitter.com/PatFlynn
 53
@@ -23364,7 +23265,7 @@ https://twitter.com/mco_ogdenm
 2
 2021-10-08 22:49:46+00:00
 https://twitter.com/GlitchxCity
-1335
+1332
 2021-10-08 22:49:14+00:00
 https://twitter.com/shinyshuriken1
 1
@@ -23491,9 +23392,6 @@ https://twitter.com/lostnlongbeach
 2021-10-08 22:10:07+00:00
 https://twitter.com/gaming_stacked
 0
-2021-10-08 22:09:05+00:00
-https://twitter.com/nintendocrybaby
-1
 2021-10-08 22:07:39+00:00
 https://twitter.com/SYNTHWAVY
 3
@@ -23578,9 +23476,6 @@ https://twitter.com/mtgproductionss
 2021-10-08 21:46:07+00:00
 https://twitter.com/Derpkin1
 0
-2021-10-08 21:45:59+00:00
-https://twitter.com/nintendocrybaby
-1
 2021-10-08 21:44:59+00:00
 https://twitter.com/VileMK2
 0
@@ -23631,7 +23526,7 @@ https://twitter.com/ThatMonadoBoy
 4
 2021-10-08 21:32:06+00:00
 https://twitter.com/OneSPlays
-34
+33
 2021-10-08 21:31:32+00:00
 https://twitter.com/djdrep3213
 0
@@ -23929,9 +23824,6 @@ https://twitter.com/JoseReyes87
 2021-10-08 19:57:36+00:00
 https://twitter.com/Moore33Gaming
 6
-2021-10-08 19:55:36+00:00
-https://twitter.com/lumiohex
-1
 2021-10-08 19:55:21+00:00
 https://twitter.com/ULTR4FR4ME
 1
@@ -23940,9 +23832,6 @@ https://twitter.com/RezRatPlays
 5
 2021-10-08 19:51:40+00:00
 https://twitter.com/Herb_N_Legend
-0
-2021-10-08 19:51:12+00:00
-https://twitter.com/lumiohex
 0
 2021-10-08 19:51:01+00:00
 https://twitter.com/CaptainCanucks8
@@ -24201,7 +24090,7 @@ https://twitter.com/driftanmiss
 0
 2021-10-08 18:34:17+00:00
 https://twitter.com/JoeMerrick
-606
+605
 2021-10-08 18:33:43+00:00
 https://twitter.com/TriforcePika
 2
@@ -24322,6 +24211,9 @@ https://twitter.com/ABCrewInc
 2021-10-08 18:07:06+00:00
 https://twitter.com/japancardgames
 3
+2021-10-08 18:03:08+00:00
+https://twitter.com/1989JR93230
+1
 2021-10-08 18:02:33+00:00
 https://twitter.com/jake_themailman
 1
@@ -24828,7 +24720,7 @@ https://twitter.com/bleedingcool
 0
 2021-10-08 15:15:03+00:00
 https://twitter.com/WhapDownTCG
-132
+131
 2021-10-08 15:13:46+00:00
 https://twitter.com/jive_tofurkey
 2
@@ -24930,7 +24822,7 @@ https://twitter.com/TeamPizza5
 144
 2021-10-08 14:32:01+00:00
 https://twitter.com/PyroJoe
-1049
+1048
 2021-10-08 14:30:37+00:00
 https://twitter.com/BNBoyntonBeach
 0
@@ -25034,7 +24926,7 @@ https://twitter.com/GAMEGreatMouth
 https://twitter.com/thatsoravenp
 2
 2021-10-08 13:51:23+00:00
-https://twitter.com/ClearlyLegend
+https://twitter.com/ChrisClear_
 0
 2021-10-08 13:50:24+00:00
 https://twitter.com/metapodtcg
@@ -25212,7 +25104,7 @@ https://twitter.com/CaptUnova
 2
 2021-10-08 12:05:58+00:00
 https://twitter.com/zoegsams
-436
+435
 2021-10-08 12:02:42+00:00
 https://twitter.com/Katysteel_
 1
@@ -25359,7 +25251,7 @@ https://twitter.com/thegeekaboo
 0
 2021-10-08 09:56:45+00:00
 https://twitter.com/Dman51735060
-1
+0
 2021-10-08 09:56:25+00:00
 https://twitter.com/GAMEPreston
 13
@@ -26304,7 +26196,7 @@ https://twitter.com/Cocofourdayz
 4
 2021-09-23 11:55:49+00:00
 https://twitter.com/THEPOKEPLATEAU
-380
+379
 2021-09-23 02:30:04+00:00
 https://twitter.com/MarcTheLlama91
 4
@@ -26467,9 +26359,6 @@ https://twitter.com/MarcTheLlama91
 2021-08-30 16:02:08+00:00
 https://twitter.com/TheGameCapital
 0
-2021-08-30 10:01:36+00:00
-https://twitter.com/ConorPokeNerd90
-0
 2021-08-30 03:29:06+00:00
 https://twitter.com/KingSlowPKM
 1
@@ -26550,7 +26439,7 @@ https://twitter.com/DelcoPokemon
 5
 2021-08-21 20:12:00+00:00
 https://twitter.com/DenTommys
-97
+96
 2021-08-21 13:30:02+00:00
 https://twitter.com/DungeonsJoypads
 1
@@ -26766,7 +26655,7 @@ https://twitter.com/JayBobSons
 0
 2021-06-24 16:01:31+00:00
 https://twitter.com/AntioksBreaks
-18
+17
 2021-06-24 15:19:45+00:00
 https://twitter.com/MotleyVerse
 5
