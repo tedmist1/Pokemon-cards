@@ -46,3 +46,9 @@ trackingPopularityPerTweet = False # Take each tweet and add its likes, retweets
 use_followers = False
 
 likeretweetreply = True # Writes the variables for building a model
+
+
+
+# Model Variables
+multiple_models = True
+normalize_terms = True

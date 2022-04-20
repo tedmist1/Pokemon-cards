@@ -6,6 +6,8 @@ from myconfig import *
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+from sklearn import preprocessing
 
 # https://www.analyticsvidhya.com/blog/2021/05/multiple-linear-regression-using-python-and-scikit-learn/
 
@@ -40,6 +42,13 @@ df.columns = ["Date", "Likes", "Retweets", "Replies", "Volume", "Price"]
 y = df.loc[:,"Price"]
 x = df.drop("Price", axis=1) # doesn't mutate df
 
+if normalize_terms: # all the normalize_terms are normalizing the values
+    x = preprocessing.normalize(x, norm='l2')
+    x = pd.DataFrame(x)
+    x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
+
+# Using multiple different models with different input variables
+
 # x = x.drop("Likes", axis=1)
 # x = x.drop("Retweets", axis=1)
 # x = x.drop("Replies", axis=1)
@@ -47,50 +56,69 @@ x = df.drop("Price", axis=1) # doesn't mutate df
 # x = x.drop("Date", axis=1)
 # print(x)
 print("Multiple Linear Regression Models")
-repetitions = 1000
+repetitions = 100
 sumscore = 0
 for i in range(repetitions):
     x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
     LR = LinearRegression()
     LR.fit(x_train, y_train)
-    sumscore += (LR.score(x_test, y_test))
+    predict = LR.predict(x_test)
+    sumscore += mean_squared_error(y_test, predict)
+    # print("RMSE:")
+    # print(mean_squared_error(y_test, predict))
+    # sumscore += (LR.score(x_test, y_test))
 print("Average score using likes, retweets, replies, volume, and date:")
 print(sumscore / repetitions)
 
-x = x.drop("Likes", axis=1)
-x = x.drop("Retweets", axis=1)
-x = x.drop("Replies", axis=1)
+if multiple_models:
 
-sumscore = 0
-for i in range(repetitions):
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-    LR = LinearRegression()
-    LR.fit(x_train, y_train)
-    sumscore += (LR.score(x_test, y_test))
-print("Average score using volume and date:")
-print(sumscore / repetitions)
+    x = x.drop("Likes", axis=1)
+    x = x.drop("Retweets", axis=1)
+    x = x.drop("Replies", axis=1)
+
+    sumscore = 0
+    for i in range(repetitions):
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
+        LR = LinearRegression()
+        LR.fit(x_train, y_train)
+        predict = LR.predict(x_test)
+        sumscore += mean_squared_error(y_test, predict)
+    print("Average score using volume and date:")
+    print(sumscore / repetitions)
+
+    x = x.drop("Volume", axis=1)
+
+    sumscore = 0
+    for i in range(repetitions):
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
+        LR = LinearRegression()
+        LR.fit(x_train, y_train)
+        predict = LR.predict(x_test)
+        sumscore += mean_squared_error(y_test, predict)
+    print("Average score using date:")
+    print(sumscore / repetitions)
 
 
-x = x.drop("Volume", axis=1)
-sumscore = 0
-for i in range(repetitions):
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-    LR = LinearRegression()
-    LR.fit(x_train, y_train)
-    sumscore += (LR.score(x_test, y_test))
-print("Average score using date:")
-print(sumscore / repetitions)
+    if normalize_terms:
+        x = df.drop("Price", axis=1) # doesn't mutate df
+        x = preprocessing.normalize(x, norm='l2')
+        x = pd.DataFrame(x)
+        x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
+        x = x.drop("Date", axis=1)
+    else:
+        x = df.drop("Date", axis=1)
+        x = x.drop("Price", axis=1)  
 
-x = df.drop("Date", axis=1)
-x = x.drop("Likes", axis=1)
-x = x.drop("Retweets", axis=1)
-x = x.drop("Replies", axis=1)
-x = x.drop("Price", axis=1) 
-sumscore = 0
-for i in range(repetitions):
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-    LR = LinearRegression()
-    LR.fit(x_train, y_train)
-    sumscore += (LR.score(x_test, y_test))
-print("Average score using volume:")
-print(sumscore / repetitions)
+    x = x.drop("Likes", axis=1)
+    x = x.drop("Retweets", axis=1)
+    x = x.drop("Replies", axis=1)
+
+    sumscore = 0
+    for i in range(repetitions):
+        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
+        LR = LinearRegression()
+        LR.fit(x_train, y_train)
+        predict = LR.predict(x_test)
+        sumscore += mean_squared_error(y_test, predict)
+    print("Average score using volume:")
+    print(sumscore / repetitions)

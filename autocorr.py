@@ -27,12 +27,6 @@ np_twitter_data = np.array(processed_data)
 
 np_tcg_data = np.array(date_price)
 
-# Why is it so hard to combine them
-one_d = np.transpose(np.array([np_tcg_data[:,1]]))
-
-
-# print(np.corrcoef(np_tcg_data[:,1].astype(float), np_twitter_data[:,1].astype(float)))
-
 X = np_tcg_data[:,1].astype(float)
 y = np_twitter_data[:,1]#.astype(float)
 
@@ -44,9 +38,10 @@ y = np_twitter_data[:,1]#.astype(float)
 # lag_plot(plotty)
 # plt.show()
 
-# Lag of one day on price
 
-xpose = pd.DataFrame(np.transpose(np.array([X])))
+
+# Lag of one day on price
+xpose = pd.DataFrame(np.transpose(np.array([X]))) # Needs to stay uncommented for autocorrelation
 # # print(xpose)
 # values = pd.DataFrame(xpose.values)
 # dataframe = concat([values.shift(1), values], axis=1)
@@ -60,5 +55,3 @@ xpose = pd.DataFrame(np.transpose(np.array([X])))
 autocorrelation_plot(xpose)
 plt.show()
 
-
-# plt.scatter(np_twitter_data[:,1].astype(float), np_tcg_data[:,1].astype(float))
