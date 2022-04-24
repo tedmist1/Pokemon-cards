@@ -1,12 +1,21 @@
-import matplotlib.pyplot as plt 
 import numpy
 import pandas as pd
-from pandas import concat
-from pandas.plotting import lag_plot, autocorrelation_plot
 from twitter.twit_graph import *
 from tcg_scraper.process import *
 from myconfig import *
-from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt 
+
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import mean_squared_error
+
+from pandas import concat
+from pandas import DataFrame
+from pandas.plotting import lag_plot, autocorrelation_plot
+
+from statsmodels.tsa.ar_model import AutoReg
+from math import sqrt
+
+
 
 
 # Followed this tutorial: https://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/
@@ -22,36 +31,68 @@ date_price = find_averages_data(date_dict)[0]
 # Twitter Data Collection
 
 dates = collect_dates_user('./twitter/', twitter_graphing_extension) # filters out repeat tweeters on the same day
-processed_data = process_data(dates)
+processed_data = process_data_lrr(dates)
 np_twitter_data = np.array(processed_data)
-
 np_tcg_data = np.array(date_price)
 
-X = np_tcg_data[:,1].astype(float)
-y = np_twitter_data[:,1]#.astype(float)
+# Manipulation to make it a 2d array with one column
+prices = []
+for line in np_tcg_data[:,1]:
+    prices.append([line])
 
-# Plot a lag plot of the X and y data? Not sure how the lagplot works on two features. Probably meaningless
-# print(np_tcg_data)
-# print(np_twitter_data)
+# date like retween reply price 
+lrrprice = numpy.append(np_twitter_data, prices, axis=1)
+# print(lrrprice)
 
-# plotty = pd.DataFrame(np.array([X, y]))
-# lag_plot(plotty)
-# plt.show()
-
-
-
-# Lag of one day on price
-xpose = pd.DataFrame(np.transpose(np.array([X]))) # Needs to stay uncommented for autocorrelation
-# # print(xpose)
-# values = pd.DataFrame(xpose.values)
-# dataframe = concat([values.shift(1), values], axis=1)
-# dataframe.columns = ['t-1', 't+1']
-# result = dataframe.corr()
-# print(result)
+df = pd.DataFrame(lrrprice)
+df.columns = ["Date", "Likes", "Retweets", "Replies", "Volume", "Price"]
 
 
-# Autocorrelation - Shows us the best amount of lag
+y = df.loc[:,"Price"]
+x = df.drop("Price", axis=1) # doesn't mutate df
 
-autocorrelation_plot(xpose)
-plt.show()
+
+# Autocorrelation - Shows us the best amount of lag. Use y as it is price
+if show_autocorr:
+    autocorrelation_plot(y)
+    lag_plot(y)
+    plt.show()
+
+
+
+# Persistence model
+def model_persistence(x):
+    return x
+
+if persistence_model:
+    window = 30 # not sure exactly what window is meant to help with    
+    train, test = y[1:len(y) - shift_days], y[len(y) - shift_days:] # using y bc y is price and we are just doing date/price
+
+    model = AutoReg(train, lags=30) # lags is the number of days it remembers to use as "training"
+    model_fit = model.fit()
+
+    coef = model_fit.params
+
+    # walk forward over time steps in test
+    history = train[len(train) - window:]
+    
+    history_list = history.tolist()
+    test_list = test.tolist()
+
+    predictions = list()
+    for t in range(len(test_list)):
+        length = len(history_list)
+        lag = [history_list[i] for i in range(length-window, length)]
+        yhat = coef[0]
+        for d in range(window):
+            yhat += coef[d+1] * lag[window - d - 1]
+
+        obs = test_list[t]
+        predictions.append(yhat)
+        history_list.append(obs)
+        print('Predicted: ', yhat, "  Expected: " , obs)
+
+    rmse = sqrt(mean_squared_error(test_list, predictions))
+    
+    print('Test RMSE: ',  rmse)
 

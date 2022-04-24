@@ -51,4 +51,12 @@ likeretweetreply = True # Writes the variables for building a model
 
 # Model Variables
 multiple_models = True
-normalize_terms = True
+normalize_terms = False # Cannot normalize if using old days?
+use_old_days = True
+
+
+# Autocorr variables
+
+show_autocorr = False
+shift_days = 7
+persistence_model = True

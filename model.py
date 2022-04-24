@@ -8,6 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn import preprocessing
+from pandas import concat
 
 # https://www.analyticsvidhya.com/blog/2021/05/multiple-linear-regression-using-python-and-scikit-learn/
 
@@ -42,6 +43,22 @@ df.columns = ["Date", "Likes", "Retweets", "Replies", "Volume", "Price"]
 y = df.loc[:,"Price"]
 x = df.drop("Price", axis=1) # doesn't mutate df
 
+if use_old_days:
+    shifted = y.shift(7)    
+    x = concat([shifted, x], axis=1)
+    x = pd.DataFrame(x)
+    x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
+    x = x.iloc[7:, :]
+    y = y.iloc[7:]
+    df = concat([x, y], axis=1)
+
+    print("All using one week old price as well")
+    
+    
+
+    # print(x)
+
+
 if normalize_terms: # all the normalize_terms are normalizing the values
     x = preprocessing.normalize(x, norm='l2')
     x = pd.DataFrame(x)
@@ -55,6 +72,7 @@ if normalize_terms: # all the normalize_terms are normalizing the values
 # x = x.drop("Volume", axis=1)
 # x = x.drop("Date", axis=1)
 # print(x)
+
 print("Multiple Linear Regression Models")
 repetitions = 100
 sumscore = 0
