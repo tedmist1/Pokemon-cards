@@ -5,12 +5,51 @@ from tcg_scraper.process import *
 from myconfig import *
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, SGDRegressor, ElasticNet, BayesianRidge
+from sklearn.kernel_ridge import KernelRidge
 from sklearn.metrics import mean_squared_error
 from sklearn import preprocessing
 from pandas import concat
+from math import sqrt
 
 # https://www.analyticsvidhya.com/blog/2021/05/multiple-linear-regression-using-python-and-scikit-learn/
+
+
+'''
+Linear Regression
+from sklearn.linear_model import LinearRegression
+
+Stochastic Gradient Descent Regression
+from sklearn.linear_model import SGDRegressor
+
+Kernel Ridge Regression
+from sklearn.kernel_ridge import KernelRidge
+
+Elastic Net Regression
+from sklearn.linear_model import ElasticNet
+
+Bayesian Ridge Regression
+from sklearn.linear_model import BayesianRidge
+
+LGBM Regressor
+from lightgbm import LGBMRegressor
+
+XGBoost Regressor
+from xgboost.sklearn import XGBRegressor
+
+CatBoost Regressor
+from catboost import CatBoostRegressor
+
+
+
+Gradient Boosting Regression
+from sklearn.ensemble import GradientBoostingRegressor
+
+Support Vector Machine
+from sklearn.svm import SVR
+
+'''
+
 
 
 # TCG Data collection
@@ -62,31 +101,46 @@ if use_old_days:
 if normalize_terms: # all the normalize_terms are normalizing the values
     x = preprocessing.normalize(x, norm='l2')
     x = pd.DataFrame(x)
-    x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
+    if not use_old_days:
+        x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
+    else:
+        x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
+
 
 # Using multiple different models with different input variables
 
-# x = x.drop("Likes", axis=1)
-# x = x.drop("Retweets", axis=1)
-# x = x.drop("Replies", axis=1)
-# x = x.drop("Volume", axis=1)
-# x = x.drop("Date", axis=1)
-# print(x)
+def build_model(x_data, y_data):
+    repetitions = 100
+    sumscore = 0
+    for i in range(repetitions):
+        x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size = 7, shuffle=False)
+        # LR = SGDRegressor(max_iter=10000)
+        LR = LinearRegression()
+        # LR = ElasticNet()
+        # LR = KernelRidge()
+        # LR = BayesianRidge()
+        LR.fit(x_train, y_train)
+        predict = LR.predict(x_test)
+        # print(predict)
+        # print("==========================================================\n\n\n\n\n=====================================")
+        # print(y_test)
+        sumscore += mean_squared_error(y_test, predict)
+    return sumscore
 
-print("Multiple Linear Regression Models")
+
+print("Multiple Linear Regressions Models")
+if normalize_terms:
+    print("Features normalized")
+else:
+    print("Features not normalized")
 repetitions = 100
-sumscore = 0
-for i in range(repetitions):
-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-    LR = LinearRegression()
-    LR.fit(x_train, y_train)
-    predict = LR.predict(x_test)
-    sumscore += mean_squared_error(y_test, predict)
-    # print("RMSE:")
-    # print(mean_squared_error(y_test, predict))
-    # sumscore += (LR.score(x_test, y_test))
+
+sumscore = build_model(x, y)
 print("Average score using likes, retweets, replies, volume, and date:")
-print(sumscore / repetitions)
+print(sqrt(sumscore / repetitions))
+
+
+
 
 if multiple_models:
 
@@ -94,34 +148,27 @@ if multiple_models:
     x = x.drop("Retweets", axis=1)
     x = x.drop("Replies", axis=1)
 
-    sumscore = 0
-    for i in range(repetitions):
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-        LR = LinearRegression()
-        LR.fit(x_train, y_train)
-        predict = LR.predict(x_test)
-        sumscore += mean_squared_error(y_test, predict)
+    sumscore = build_model(x, y)
     print("Average score using volume and date:")
-    print(sumscore / repetitions)
+    print(sqrt(sumscore / repetitions))
 
     x = x.drop("Volume", axis=1)
 
-    sumscore = 0
-    for i in range(repetitions):
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-        LR = LinearRegression()
-        LR.fit(x_train, y_train)
-        predict = LR.predict(x_test)
-        sumscore += mean_squared_error(y_test, predict)
+
+    sumscore = build_model(x, y)
     print("Average score using date:")
-    print(sumscore / repetitions)
+    print(sqrt(sumscore / repetitions))
 
 
     if normalize_terms:
         x = df.drop("Price", axis=1) # doesn't mutate df
         x = preprocessing.normalize(x, norm='l2')
         x = pd.DataFrame(x)
-        x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
+        if use_old_days:
+            x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
+
+        else:
+            x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
         x = x.drop("Date", axis=1)
     else:
         x = df.drop("Date", axis=1)
@@ -131,12 +178,8 @@ if multiple_models:
     x = x.drop("Retweets", axis=1)
     x = x.drop("Replies", axis=1)
 
-    sumscore = 0
-    for i in range(repetitions):
-        x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.3)
-        LR = LinearRegression()
-        LR.fit(x_train, y_train)
-        predict = LR.predict(x_test)
-        sumscore += mean_squared_error(y_test, predict)
+
+    sumscore = build_model(x, y)
+
     print("Average score using volume:")
-    print(sumscore / repetitions)
+    print(sqrt(sumscore / repetitions))
