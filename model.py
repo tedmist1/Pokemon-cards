@@ -121,9 +121,6 @@ def build_model(x_data, y_data):
         # LR = BayesianRidge()
         LR.fit(x_train, y_train)
         predict = LR.predict(x_test)
-        # print(predict)
-        # print("==========================================================\n\n\n\n\n=====================================")
-        # print(y_test)
         sumscore += mean_squared_error(y_test, predict)
     return sumscore
 
