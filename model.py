@@ -1,5 +1,6 @@
 import numpy
 import pandas as pd
+import random
 from twitter.twit_graph import *
 from tcg_scraper.process import *
 from myconfig import *
@@ -78,24 +79,44 @@ lrrprice = numpy.append(np_twitter_data, prices, axis=1)
 df = pd.DataFrame(lrrprice)
 df.columns = ["Date", "Likes", "Retweets", "Replies", "Volume", "Price"]
 
+# print(df)
 
 y = df.loc[:,"Price"]
 x = df.drop("Price", axis=1) # doesn't mutate df
 
+lag_columns = ["Date", "Likes", "Retweets", "Replies", "Volume"]
+
 if use_old_days:
-    shifted = y.shift(7)    
-    x = concat([shifted, x], axis=1)
+
+    # NOTE: This is all backwards. This is predicting the future given many predictions in the future... Not useful!
+    
+    # shifts = []
+    # for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
+    #     shift = y.shift(7+i)
+    #     # print(shift[6:12]) 
+    #     lag_columns = ["Old price" + str(i)] + lag_columns
+    #     x = concat([shift, x], axis=1)
+    # x = pd.DataFrame(x)
+    # x.columns = lag_columns
+    # x = x.iloc[7+num_of_shift_days:, :] 
+    # y = y.iloc[7+num_of_shift_days:]
+    # df = concat([x, y], axis=1)
+    # print("All using one week old price as well")
+
+    shifts = []
+    for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
+        shift = y.shift(-7-i)
+        # print(shift[6:12]) 
+        lag_columns = ["Old price" + str(i)] + lag_columns
+        x = concat([shift, x], axis=1)
     x = pd.DataFrame(x)
-    x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
-    x = x.iloc[7:, :]
-    y = y.iloc[7:]
+    x.columns = lag_columns
+    # print(x.iloc[:-5])
+    x = x.iloc[:-7-num_of_shift_days, :] 
+    y = y.iloc[:-7-num_of_shift_days]
     df = concat([x, y], axis=1)
+    print("All using price from 7 to 14 days ago as well")
 
-    print("All using one week old price as well")
-    
-    
-
-    # print(x)
 
 
 if normalize_terms: # all the normalize_terms are normalizing the values
@@ -104,24 +125,37 @@ if normalize_terms: # all the normalize_terms are normalizing the values
     if not use_old_days:
         x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]
     else:
-        x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
+        x.columns = lag_columns
 
 
 # Using multiple different models with different input variables
-
+repetitions = 20
 def build_model(x_data, y_data):
-    repetitions = 100
+    # repetitions = 1
     sumscore = 0
+    prediction = []
     for i in range(repetitions):
-        x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size = 7, shuffle=False)
-        # LR = SGDRegressor(max_iter=10000)
-        LR = LinearRegression()
+
+        # For testing purposes, instead of just testing the last 7 days, check many different models where we test the last 7 days, test the 8th through 2nd to last days, test 9th through 3rd to last days, etc
+        rand_end = i # This allows us to test a variety of real data points. Chosen all from the end so we have data. Can't really use data points after our predictions because that's unfair
+        x_test = x_data[rand_end:rand_end+7]
+        x_train = x_data[rand_end+7:]
+        y_test = y_data[rand_end:rand_end+7]
+        y_train = y_data[rand_end+7:]
+        # LR = LinearRegression()
+        # LR = SGDRegressor(max_iter=100000)
         # LR = ElasticNet()
         # LR = KernelRidge()
-        # LR = BayesianRidge()
+        LR = BayesianRidge()
         LR.fit(x_train, y_train)
         predict = LR.predict(x_test)
+        prediction = predict
         sumscore += mean_squared_error(y_test, predict)
+    # These two lines print out our prediction vs the actual
+
+    # print(y_test) # The last y_test
+    # print(prediction) # Simply the last prediction
+    
     return sumscore
 
 
@@ -130,7 +164,6 @@ if normalize_terms:
     print("Features normalized")
 else:
     print("Features not normalized")
-repetitions = 100
 
 sumscore = build_model(x, y)
 print("Average score using likes, retweets, replies, volume, and date:")
@@ -162,7 +195,7 @@ if multiple_models:
         x = preprocessing.normalize(x, norm='l2')
         x = pd.DataFrame(x)
         if use_old_days:
-            x.columns = ["Old price", "Date", "Likes", "Retweets", "Replies", "Volume"]
+            x.columns = lag_columns
 
         else:
             x.columns=["Date", "Likes", "Retweets", "Replies", "Volume"]

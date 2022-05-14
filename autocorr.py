@@ -55,7 +55,14 @@ x = df.drop("Price", axis=1) # doesn't mutate df
 # Autocorrelation - Shows us the best amount of lag. Use y as it is price
 if show_autocorr:
     autocorrelation_plot(y)
-    lag_plot(y)
+
+    # Lag plot
+    # lag_plot(y)
+    shifted = concat([y.shift(7), y], axis=1)
+    print(shifted.corr())
+    print(y)
+
+    plt.title("Lag Plot for Price Data")
     plt.show()
 
 
@@ -64,11 +71,11 @@ if show_autocorr:
 def model_persistence(x):
     return x
 
-if persistence_model:
-    window = 30 # not sure exactly what window is meant to help with    
+if persistence_autoregression_model:
+    window = shift_days # not sure exactly what window is meant to help with. However it is used to determine how many days shift *I think*
     train, test = y[1:len(y) - shift_days], y[len(y) - shift_days:] # using y bc y is price and we are just doing date/price
 
-    model = AutoReg(train, lags=30) # lags is the number of days it remembers to use as "training"
+    model = AutoReg(train, lags=window) # lags is the number of days it remembers to use as "training"
     model_fit = model.fit()
 
     coef = model_fit.params
@@ -90,7 +97,7 @@ if persistence_model:
         obs = test_list[t]
         predictions.append(yhat)
         history_list.append(obs)
-        print('Predicted: ', yhat, "  Expected: " , obs)
+        print('Predicted: ', yhat, "  Actual: " , obs)
 
     rmse = sqrt(mean_squared_error(test_list, predictions))
     

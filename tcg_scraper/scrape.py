@@ -12,7 +12,6 @@ from selenium.webdriver.common.by import By
 
 # IMPORTANT NOTE: It seems that tcgplayer only stores around the last 5125 sales, as each week when I update it, I get less of the old sales depending on how many new sales (even when adjusting my numbers for how many to look for)
 
-# CONSTANTS:
 
 # a linkt for the tcg page for the product you wish to scrape
 URL = "https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English"

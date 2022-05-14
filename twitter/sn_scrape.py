@@ -21,7 +21,7 @@ def collect_data():
     tweets_list1= []
 
     # Goes through all the tweets with this data
-    for i,tweet in enumerate(sntwitter.TwitterHashtagScraper(hashtag).get_items()):
+    for i,tweet in enumerate(sntwitter.TwitterSearchScraper(hashtag).get_items()):
         
         if limitItems and i>maximumItems:
             break

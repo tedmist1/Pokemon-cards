@@ -90,14 +90,28 @@ def build_date_correlation_arr(np_data):
         new_arr.append([diff, np_data[i][1]])
     return new_arr
 
+
+def build_correlation_arr(np_data1, np_data2):
+    together = numpy.append(np_data1, np_data2, axis=1)
+    print(together)
+    new_arr = []
+    for i in range(len(np_data)):
+        diff = (np_data[i][0] - start_date_process).days
+        new_arr.append([diff, np_data[i][1]])
+    return new_arr
+
+
 if __name__ == "__main__":
 
     items, date_dict = read_from_file(NUMBER_OF_LINES) 
 
-    date_price, temp = find_averages_data(date_dict)
+    date_price, temp = find_averages_data(date_dict) # returns a list and a dict of the items
 
     # Convert to np array
 
+    # a, b = read_from_file(1, 'twitter/tweet_data.txt')
+
+    # need to read the various datas
 
     # Generates a date-price graph
     if date_price_bool:
@@ -114,7 +128,14 @@ if __name__ == "__main__":
     # Generate correlation
     if correlation_generate:
         np_data = np.array(date_price)
+        # print(np_data)
+
+
+        # build_correlation_arr(np_data, np_data2)
+
+
         corr_arr = build_date_correlation_arr(np_data)
+        print(corr_arr)
         np_corr = np.array(corr_arr)
         print(np.corrcoef(np_corr[:,0].astype(float), np_corr[:,1].astype(float))) # Correlation between date and price
         build_raw_graph()
