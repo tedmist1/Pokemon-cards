@@ -58,7 +58,7 @@ items, date_dict = read_from_file(NUMBER_OF_LINES, './tcg_scraper/etb.txt')
 
 # print(date_dict)
 date_price = find_averages_data(date_dict)[0]
-# print(date_price_dict)
+# print(date_price)
 
 # Twitter Data Collection
 
@@ -77,6 +77,9 @@ lrrprice = numpy.append(np_twitter_data, prices, axis=1)
 # print(lrrprice)
 
 df = pd.DataFrame(lrrprice)
+
+df = df.loc[::-1].reset_index(drop=True) # need to put old dates at the start. Had to swap rows
+
 df.columns = ["Date", "Likes", "Retweets", "Replies", "Volume", "Price"]
 
 # print(df)
@@ -88,36 +91,37 @@ lag_columns = ["Date", "Likes", "Retweets", "Replies", "Volume"]
 
 if use_old_days:
 
-    # NOTE: This is all backwards. This is predicting the future given many predictions in the future... Not useful!
+    # NOTE: This was all backwards. This is predicting the future given many predictions in the future... Not useful!
     
-    # shifts = []
-    # for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
-    #     shift = y.shift(7+i)
-    #     # print(shift[6:12]) 
-    #     lag_columns = ["Old price" + str(i)] + lag_columns
-    #     x = concat([shift, x], axis=1)
-    # x = pd.DataFrame(x)
-    # x.columns = lag_columns
-    # x = x.iloc[7+num_of_shift_days:, :] 
-    # y = y.iloc[7+num_of_shift_days:]
-    # df = concat([x, y], axis=1)
-    # print("All using one week old price as well")
-
     shifts = []
     for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
-        shift = y.shift(-7-i)
+        shift = y.shift(7+i)
         # print(shift[6:12]) 
         lag_columns = ["Old price" + str(i)] + lag_columns
         x = concat([shift, x], axis=1)
     x = pd.DataFrame(x)
     x.columns = lag_columns
-    # print(x.iloc[:-5])
-    x = x.iloc[:-7-num_of_shift_days, :] 
-    y = y.iloc[:-7-num_of_shift_days]
+    x = x.iloc[7+num_of_shift_days:, :] 
+    y = y.iloc[7+num_of_shift_days:]
     df = concat([x, y], axis=1)
     print("All using price from 7 to 14 days ago as well")
 
+    # shifts = []
+    # for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
+    #     shift = y.shift(-7-i)
+    #     # print(shift[6:12]) 
+    #     lag_columns = ["Old price" + str(i)] + lag_columns
+    #     x = concat([shift, x], axis=1)
+    # x = pd.DataFrame(x)
+    # x.columns = lag_columns
+    # # print(x.iloc[:-5])
+    # x = x.iloc[:-7-num_of_shift_days, :] 
+    # y = y.iloc[:-7-num_of_shift_days]
+    # df = concat([x, y], axis=1)
+    # print("All using price from 7 to 14 days ago as well")
 
+print(x)
+print(y)
 
 if normalize_terms: # all the normalize_terms are normalizing the values
     x = preprocessing.normalize(x, norm='l2')
@@ -137,25 +141,28 @@ def build_model(x_data, y_data):
     for i in range(repetitions):
 
         # For testing purposes, instead of just testing the last 7 days, check many different models where we test the last 7 days, test the 8th through 2nd to last days, test 9th through 3rd to last days, etc
-        rand_end = i # This allows us to test a variety of real data points. Chosen all from the end so we have data. Can't really use data points after our predictions because that's unfair
-        x_test = x_data[rand_end:rand_end+7]
-        x_train = x_data[rand_end+7:]
-        y_test = y_data[rand_end:rand_end+7]
-        y_train = y_data[rand_end+7:]
-        # LR = LinearRegression()
+        rand_end = i + num_of_shift_days # This allows us to test a variety of real data points. Chosen all from the end so we have data. Can't really use data points after our predictions because that's unfair
+        len_x = len(x_data)
+
+        x_test = x_data[len_x - rand_end:7 + len_x - rand_end]
+        x_train = x_data[len_x - rand_end:]
+
+        y_test = y_data[len_x - rand_end:7 + len_x - rand_end]
+        y_train = y_data[len_x - rand_end:]
+        LR = LinearRegression()
         # LR = SGDRegressor(max_iter=100000)
         # LR = ElasticNet()
         # LR = KernelRidge()
-        LR = BayesianRidge()
+        # LR = BayesianRidge()
         LR.fit(x_train, y_train)
         predict = LR.predict(x_test)
         prediction = predict
-        sumscore += mean_squared_error(y_test, predict)
-    # These two lines print out our prediction vs the actual
+        sumscore += sqrt(mean_squared_error(y_test, predict))
+        if i == 0: # Print out actual vs prediction for the last 7 days
+            print(y_test)
+            print(prediction)
 
-    # print(y_test) # The last y_test
-    # print(prediction) # Simply the last prediction
-    
+            
     return sumscore
 
 
@@ -167,7 +174,7 @@ else:
 
 sumscore = build_model(x, y)
 print("Average score using likes, retweets, replies, volume, and date:")
-print(sqrt(sumscore / repetitions))
+print((sumscore / repetitions))
 
 
 
@@ -180,14 +187,14 @@ if multiple_models:
 
     sumscore = build_model(x, y)
     print("Average score using volume and date:")
-    print(sqrt(sumscore / repetitions))
+    print((sumscore / repetitions))
 
     x = x.drop("Volume", axis=1)
 
 
     sumscore = build_model(x, y)
     print("Average score using date:")
-    print(sqrt(sumscore / repetitions))
+    print((sumscore / repetitions))
 
 
     if normalize_terms:
@@ -212,4 +219,4 @@ if multiple_models:
     sumscore = build_model(x, y)
 
     print("Average score using volume:")
-    print(sqrt(sumscore / repetitions))
+    print(sumscore / repetitions)

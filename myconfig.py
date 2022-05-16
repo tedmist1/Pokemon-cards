@@ -57,11 +57,11 @@ use_followers = False
 
 # Model Variables
 multiple_models = True
-normalize_terms = True # Cannot normalize if using old days?
+normalize_terms = False # Cannot normalize if using old days?
 use_old_days = False
-num_of_shift_days = 2
+num_of_shift_days = 7
 
 # Autocorr variables
-show_autocorr = True
-shift_days = 7
+show_autocorr = False
+shift_days = 7 # No longer used?
 persistence_autoregression_model = True
