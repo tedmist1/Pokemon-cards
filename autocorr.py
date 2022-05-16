@@ -68,7 +68,7 @@ def model_persistence(x):
 
 if persistence_autoregression_model:
 
-    for s in range(3, 36):
+    for s in range(7, 36):
         shift_days = s
         sum_error = 0
         repetitions = 20
@@ -101,7 +101,7 @@ if persistence_autoregression_model:
                 predictions.append(yhat)
                 history_list.append(obs)
                 # This is used to print out predictions for a particular loop
-                if i == 0 and s == 30: 
+                if i == 0 and s == 7: 
                     print('Predicted: ', yhat, "  Actual: " , obs)
 
             sum_error += sqrt(mean_squared_error(test_list, predictions))

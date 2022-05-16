@@ -62,6 +62,6 @@ use_old_days = False
 num_of_shift_days = 7
 
 # Autocorr variables
-show_autocorr = False
+show_autocorr = True
 shift_days = 7 # No longer used?
 persistence_autoregression_model = True
