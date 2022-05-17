@@ -18,7 +18,7 @@ from math import sqrt
 # Followed this tutorial: https://machinelearningmastery.com/autoregression-models-time-series-forecasting-python/
 
 # TCG Data collection
-items, date_dict = read_from_file(NUMBER_OF_LINES, './tcg_scraper/etb.txt')
+items, date_dict = read_from_file(NUMBER_OF_LINES, price_file_extension)
 
 date_price = find_averages_data(date_dict)[0]
 
@@ -51,14 +51,26 @@ if show_autocorr:
     # Used to show the autocorrelation plot, which is the correlation of lag plots but for every amount of day offset then graphed
     # autocorrelation_plot(y)
 
-    # Lag plot
-    lag_plot(y)
-    shifted = concat([y.shift(7), y], axis=1)
-    print(shifted.corr())
-    print(y)
+    if show_volume_lag: 
+        # Lag plot for volume
+        lag_plot(x.Volume)
+        shifted = concat([x.Volume.shift(1), x.Volume], axis=1)
+        print(shifted.corr())
+        # print(x.Volume)
 
-    plt.title("Lag Plot for Price Data")
-    plt.show()
+        plt.title("Lag Plot for Price Data")
+        plt.show()
+
+    else: 
+        # Lag plot for price
+        lag_plot(y)
+        shifted = concat([y.shift(7), y], axis=1)
+        print(shifted.corr())
+        # print(y)
+
+        plt.title("Lag Plot for Price Data")
+        plt.show()
+
 
 
 
@@ -71,41 +83,42 @@ if persistence_autoregression_model:
     for s in range(7, 36):
         shift_days = s
         sum_error = 0
-        repetitions = 20
+        repetitions = 1
+        if sliding_window or s == 7: # If sliding_window is false, only have a window of 7
+            repetitions = 20
+            for i in range(repetitions):
 
-        for i in range(repetitions):
+                window = shift_days # Used to determine how many days shift
+                train, test = y[1:len(y) - 7 - i], y[len(y) - 7 - i: len(y) - i] # Split the data from the beginning to the different end points, defined by i
 
-            window = shift_days # Used to determine how many days shift
-            train, test = y[1:len(y) - 7 - i], y[len(y) - 7 - i: len(y) - i] # Split the data from the beginning to the different end points, defined by i
+                model = AutoReg(train, lags=window) # lags is the number of days it remembers to use as "training"
+                model_fit = model.fit()
 
-            model = AutoReg(train, lags=window) # lags is the number of days it remembers to use as "training"
-            model_fit = model.fit()
+                coef = model_fit.params
 
-            coef = model_fit.params
+                # walk forward over time steps in test
+                history = train[len(train) - window:]
+                
+                history_list = history.tolist()
+                test_list = test.tolist()
 
-            # walk forward over time steps in test
-            history = train[len(train) - window:]
-            
-            history_list = history.tolist()
-            test_list = test.tolist()
+                predictions = list()
+                for t in range(len(test_list)):
+                    length = len(history_list)
+                    lag = [history_list[i] for i in range(length-window, length)]
+                    yhat = coef[0]
+                    for d in range(window):
+                        yhat += coef[d+1] * lag[window - d - 1]
 
-            predictions = list()
-            for t in range(len(test_list)):
-                length = len(history_list)
-                lag = [history_list[i] for i in range(length-window, length)]
-                yhat = coef[0]
-                for d in range(window):
-                    yhat += coef[d+1] * lag[window - d - 1]
+                    obs = test_list[t]
+                    predictions.append(yhat)
+                    history_list.append(obs)
+                    # This is used to print out predictions for a particular loop
+                    if i == 0 and s == 7: 
+                        print('Predicted: ', yhat, "  Actual: " , obs)
 
-                obs = test_list[t]
-                predictions.append(yhat)
-                history_list.append(obs)
-                # This is used to print out predictions for a particular loop
-                if i == 0 and s == 7: 
-                    print('Predicted: ', yhat, "  Actual: " , obs)
-
-            sum_error += sqrt(mean_squared_error(test_list, predictions))
+                sum_error += sqrt(mean_squared_error(test_list, predictions))
         
         
-        print('Test RMSE given ', s , 'days of info: ',  sum_error / repetitions)
+            print('Test RMSE given ', s , 'days of info: ',  sum_error / repetitions)
 

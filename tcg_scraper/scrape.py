@@ -14,7 +14,7 @@ from selenium.webdriver.common.by import By
 
 
 # a linkt for the tcg page for the product you wish to scrape
-URL = "https://www.tcgplayer.com/product/242811/pokemon-celebrations-celebrations-elite-trainer-box?Language=English"
+
 
 # Finds the button to load more elements
 def hit_load_button(num=100):

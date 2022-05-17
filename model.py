@@ -106,22 +106,8 @@ if use_old_days:
     df = concat([x, y], axis=1)
     print("All using price from 7 to 14 days ago as well")
 
-    # shifts = []
-    # for i in range(num_of_shift_days): # num_of_shift_days is the autocorr variable to determine how many days to shift by
-    #     shift = y.shift(-7-i)
-    #     # print(shift[6:12]) 
-    #     lag_columns = ["Old price" + str(i)] + lag_columns
-    #     x = concat([shift, x], axis=1)
-    # x = pd.DataFrame(x)
-    # x.columns = lag_columns
-    # # print(x.iloc[:-5])
-    # x = x.iloc[:-7-num_of_shift_days, :] 
-    # y = y.iloc[:-7-num_of_shift_days]
-    # df = concat([x, y], axis=1)
-    # print("All using price from 7 to 14 days ago as well")
 
-print(x)
-print(y)
+
 
 if normalize_terms: # all the normalize_terms are normalizing the values
     x = preprocessing.normalize(x, norm='l2')
@@ -145,15 +131,20 @@ def build_model(x_data, y_data):
         len_x = len(x_data)
 
         x_test = x_data[len_x - rand_end:7 + len_x - rand_end]
-        x_train = x_data[len_x - rand_end:]
+        x_train = x_data[:len_x - rand_end]
 
         y_test = y_data[len_x - rand_end:7 + len_x - rand_end]
-        y_train = y_data[len_x - rand_end:]
+        y_train = y_data[:len_x - rand_end]
+
         LR = LinearRegression()
-        # LR = SGDRegressor(max_iter=100000)
-        # LR = ElasticNet()
-        # LR = KernelRidge()
-        # LR = BayesianRidge()
+        if regression_model == 1:
+            LR = SGDRegressor(max_iter=100000)
+        if regression_model == 2:
+            LR = ElasticNet()
+        if regression_model == 2:
+            LR = KernelRidge()
+        if regression_model == 4:
+            LR = BayesianRidge()
         LR.fit(x_train, y_train)
         predict = LR.predict(x_test)
         prediction = predict
