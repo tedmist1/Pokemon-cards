@@ -38,3 +38,4 @@ To visualize the Twitter data, change the correlation_generate variable, and run
 To generate the regression models, set the myconfig.py variables, and then run model.py in the master folder. 
 
 To generate lag plots, run autocorr.py with the show_autocorr variable set to True in myconfig.py. The file autocorr.py will also generate the autoregression model if set to do so. It will predict the next seven days, and give the RMSE for that data.
+
